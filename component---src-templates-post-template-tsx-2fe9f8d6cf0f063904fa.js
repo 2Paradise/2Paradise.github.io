@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[13],{"z/DK":function(e,n,t){"use strict";t.r(n);var a=t("q1tI"),l=t.n(a),r=t("Bl7J"),u=l.a.memo((function(e){return l.a.createElement(r.a,null,l.a.createElement("code",null,l.a.createElement("pre",null,JSON.stringify(e,null,4))))}));u.displayName="PostTemplate",n.default=u}}]);
-//# sourceMappingURL=component---src-templates-post-template-tsx-2fe9f8d6cf0f063904fa.js.map
