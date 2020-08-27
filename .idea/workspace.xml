@@ -17,7 +17,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b678042-0e03-48bc-9f92-7ce05eae8f4c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/gatsby-lib/on-create-node.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gatsby-lib/on-create-pages.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/posts/javascript/20-06-25-javascript-promise/_2020-07-01__3.26.44.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/posts/javascript/20-06-25-javascript-promise/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/templates/not-found-template.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/templates/post-list-template.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/templates/post-template.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gatsby-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-node.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-node.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +60,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/posts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/posts/javascript/20-06-25-javascript-promise" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -59,19 +70,19 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/posts/react/2020-06-24-React 기본개념" />
-      <recent name="$PROJECT_DIR$/src/posts/javascript/2020-06-25-JavaScript 비동기 처리의 이해" />
-      <recent name="$PROJECT_DIR$/src/posts/javascript/2020-06-24-JavaScript 알고 있으면 유용한 문법" />
-      <recent name="$PROJECT_DIR$/src/posts/javascript/2020-06-23-javascript-prototype" />
-      <recent name="$PROJECT_DIR$/src/posts/javascript/2020-06-22-javascript-base" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/posts/javascript/20-06-25-javascript-promise" />
+      <recent name="$PROJECT_DIR$/src/posts/javascript" />
       <recent name="$PROJECT_DIR$/src/posts" />
       <recent name="$PROJECT_DIR$/src/images" />
       <recent name="$PROJECT_DIR$/src/posts/javascript/2020-06-25-JavaScript 비동기 처리의 이해" />
-      <recent name="$PROJECT_DIR$/prismjs/themes" />
-      <recent name="$PROJECT_DIR$/src/posts/javascript" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/posts/javascript/20-06-25-javascript-promise" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/posts/react/2020-06-24-React 기본개념" />
+      <recent name="$PROJECT_DIR$/src/posts/javascript/2020-06-25-JavaScript 비동기 처리의 이해" />
+      <recent name="$PROJECT_DIR$/src/posts/javascript/2020-06-24-JavaScript 알고 있으면 유용한 문법" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -85,7 +96,7 @@
       <workItem from="1597687405243" duration="20280000" />
       <workItem from="1597803614791" duration="288000" />
       <workItem from="1597803989098" duration="80757000" />
-      <workItem from="1598498813547" duration="2576000" />
+      <workItem from="1598498813547" duration="7027000" />
     </task>
     <servers />
   </component>
@@ -170,10 +181,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="638" y="446" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-907.-1440.3440.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1598431780608" />
-    <state x="360" y="114" width="1320" height="822" key="find.popup" timestamp="1598431771031">
+    <state x="360" y="114" width="1320" height="822" key="find.popup" timestamp="1598513115811">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="360" y="114" width="1320" height="822" key="find.popup/-907.-1440.3440.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1598431771031" />
+    <state x="360" y="114" width="1320" height="822" key="find.popup/-907.-1440.3440.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1598513115811" />
     <state x="213" y="116" width="1320" height="822" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1598376418196" />
     <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1598499179272">
       <screen x="0" y="0" width="1680" height="1050" />
