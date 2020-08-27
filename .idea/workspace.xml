@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:develop-v1" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6b678042-0e03-48bc-9f92-7ce05eae8f4c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/gatsby-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-config.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript JSX File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="ProjectId" id="1gEkzvaoamKMie3RHUK0EGJ6YMw" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/posts" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/posts/react/2020-06-24-React 기본개념" />
+      <recent name="$PROJECT_DIR$/src/posts/javascript/2020-06-25-JavaScript 비동기 처리의 이해" />
+      <recent name="$PROJECT_DIR$/src/posts/javascript/2020-06-24-JavaScript 알고 있으면 유용한 문법" />
+      <recent name="$PROJECT_DIR$/src/posts/javascript/2020-06-23-javascript-prototype" />
+      <recent name="$PROJECT_DIR$/src/posts/javascript/2020-06-22-javascript-base" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/posts" />
+      <recent name="$PROJECT_DIR$/src/images" />
+      <recent name="$PROJECT_DIR$/src/posts/javascript/2020-06-25-JavaScript 비동기 처리의 이해" />
+      <recent name="$PROJECT_DIR$/prismjs/themes" />
+      <recent name="$PROJECT_DIR$/src/posts/javascript" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6b678042-0e03-48bc-9f92-7ce05eae8f4c" name="Default Changelist" comment="" />
+      <created>1597687404190</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597687404190</updated>
+      <workItem from="1597687405243" duration="20280000" />
+      <workItem from="1597803614791" duration="288000" />
+      <workItem from="1597803989098" duration="80757000" />
+      <workItem from="1598498813547" duration="2576000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="develop-v1" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597830466585">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog/-907.-1440.3440.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1597830466585" />
+    <state x="563" y="334" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597886033251">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="563" y="334" key="#com.intellij.fileTypes.FileTypeChooser/-907.-1440.3440.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1597886033251" />
+    <state x="563" y="334" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1597803108647" />
+    <state x="578" y="259" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1598412078817">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="578" y="262" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-907.-1417.3440.1417/0.23.1680.970@0.23.1680.970" timestamp="1597687995105" />
+    <state x="578" y="259" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-907.-1440.3440.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1598412078817" />
+    <state x="100" y="100" width="1480" height="850" key="DiffContextDialog" timestamp="1597853110589">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="100" y="100" width="1480" height="850" key="DiffContextDialog/-907.-1440.3440.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1597853110589" />
+    <state width="1659" height="295" key="GridCell.Tab.0.bottom" timestamp="1598411361594">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1659" height="295" key="GridCell.Tab.0.bottom/-907.-1440.3440.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1598411361594" />
+    <state width="1659" height="295" key="GridCell.Tab.0.center" timestamp="1598411361591">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1659" height="295" key="GridCell.Tab.0.center/-907.-1440.3440.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1598411361591" />
+    <state width="1659" height="295" key="GridCell.Tab.0.left" timestamp="1598411361590">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1659" height="295" key="GridCell.Tab.0.left/-907.-1440.3440.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1598411361590" />
+    <state width="1659" height="295" key="GridCell.Tab.0.right" timestamp="1598411361593">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1659" height="295" key="GridCell.Tab.0.right/-907.-1440.3440.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1598411361593" />
+    <state x="100" y="100" width="1480" height="850" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1597853110590">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="100" y="100" width="1480" height="850" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/-907.-1440.3440.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1597853110590" />
+    <state x="100" y="100" width="1480" height="850" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1597853110591">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="100" y="100" width="1480" height="850" key="com.intellij.history.integration.ui.views.FileHistoryDialog/-907.-1440.3440.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1597853110591" />
+    <state x="463" y="142" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1597854236811">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="463" y="142" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/-907.-1440.3440.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1597854236811" />
+    <state x="638" y="446" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598431780608">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="638" y="446" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-907.-1440.3440.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1598431780608" />
+    <state x="360" y="114" width="1320" height="822" key="find.popup" timestamp="1598431771031">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="360" y="114" width="1320" height="822" key="find.popup/-907.-1440.3440.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1598431771031" />
+    <state x="213" y="116" width="1320" height="822" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1598376418196" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1598499179272">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/-907.-1417.3440.1417/0.0.1680.1050@0.0.1680.1050" timestamp="1597882515512" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/-907.-1440.3440.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1598499179272" />
+    <state x="513" y="307" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1598462706065" />
+    <state x="570" y="369" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1598419836604">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="570" y="369" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/-907.-1440.3440.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1598419836603" />
+  </component>
+</project>
