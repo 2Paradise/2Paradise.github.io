@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[8],{QeBL:function(n,e,t){"use strict";t.r(e);var a=t("MUpH"),r=t("q1tI"),i=t.n(r),o=t("9Dj+"),c=t("vOnD");function u(){var n=Object(a.a)(["\n  text-align: center;\n  font-width: bold;\n  font-size:5rem;\n  padding:300px 0;\n"]);return u=function(){return n},n}e.default=function(){return i.a.createElement(o.a,{isWide:!0},i.a.createElement(d,null,"2Paradise Develop Blog"))};var d=c.b.section(u())}}]);
+//# sourceMappingURL=component---src-pages-index-tsx-82c71293198b73ef6a1b.js.map
