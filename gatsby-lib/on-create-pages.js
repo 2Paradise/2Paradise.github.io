@@ -33,7 +33,7 @@ const createPages = async ({ graphql, actions }) => {
   const { edges } = data.allMarkdownRemark;
   const notFoundTempComp = path.resolve(__dirname,"../src/templates/not-found-template.js");
   const postTempComp = path.resolve(__dirname, "../src/templates/post-template.tsx");
-  const postListTempComp = path.resolve(__dirname, "../src/templates/post-list-template.js");
+  const postListTempComp = path.resolve(__dirname, "../src/templates/post-list-template.tsx");
 
   // 404
   createPage({

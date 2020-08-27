@@ -7,13 +7,13 @@ import { PageProps, graphql } from "gatsby"
 import { PostPropsType } from "../types"
 
 const PostTemplate: React.FC<PageProps<PostPropsType>>  = React.memo(({ data }) => {
-  console.log(data.post);
+
   return (
-    <Layout>
+    <Layout isWide={false}>
       <PostComp markdown={data.post}/>
     </Layout>
   )
-})
+});
 
 PostTemplate.displayName = 'PostTemplate';
 

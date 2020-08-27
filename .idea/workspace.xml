@@ -17,24 +17,54 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b678042-0e03-48bc-9f92-7ce05eae8f4c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/post/PostComp.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/blog_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/templates/post-template.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/types.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/blog.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/PagingComp.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/header.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/post-list/PostListComp.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/post-list/PostTagListComp.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/tag/TagListComp.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/constants/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hook/use-tag-list.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/posts/javascript/2020-06-22-javascript-basic/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/posts/javascript/2020-06-23-javascript-prototype/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/posts/javascript/2020-06-24-javascript-util-doc/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/posts/react/2020-06-24-React 기본개념/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resource/fonts/Roboto-Black.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resource/fonts/Roboto-BlackItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resource/fonts/Roboto-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resource/fonts/Roboto-BoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resource/fonts/Roboto-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resource/fonts/Roboto-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resource/fonts/Roboto-LightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resource/fonts/Roboto-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resource/fonts/Roboto-MediumItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resource/fonts/Roboto-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resource/fonts/Roboto-Thin.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resource/fonts/Roboto-ThinItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/templates/post-list-template.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/convertText.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gatsby-browser.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-browser.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatsby-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gatsby-lib/on-create-pages.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-lib/on-create-pages.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/gatsby-astronaut.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/gatsby-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/404.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/page-2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/posts/javascript/20-06-25-javascript-promise/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/posts/javascript/20-06-25-javascript-promise/index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/templates/post-template.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/post/PostComp.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/post/PostComp.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/posts/javascript/20-06-25-javascript-promise/_2020-07-01__3.26.44.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/posts/javascript/2020-06-25-javascript-promise/_2020-07-01__3.26.44.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/posts/javascript/20-06-25-javascript-promise/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/posts/javascript/2020-06-25-javascript-promise/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/post-list-template.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/post-template.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/post-template.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/types.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +86,7 @@
     <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
   <component name="ProjectId" id="1gEkzvaoamKMie3RHUK0EGJ6YMw" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -65,9 +95,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/post" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -78,11 +110,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/images" />
-      <recent name="$PROJECT_DIR$/src/posts/javascript/20-06-25-javascript-promise" />
-      <recent name="$PROJECT_DIR$/src/posts/javascript" />
-      <recent name="$PROJECT_DIR$/src/posts" />
-      <recent name="$PROJECT_DIR$/src/posts/javascript/2020-06-25-JavaScript 비동기 처리의 이해" />
+      <recent name="$PROJECT_DIR$/src/components/post" />
+      <recent name="$PROJECT_DIR$/src/components" />
+      <recent name="$PROJECT_DIR$/src/utils" />
+      <recent name="$PROJECT_DIR$/src/components/post-list" />
+      <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/posts/javascript/20-06-25-javascript-promise" />
@@ -104,6 +136,8 @@
       <workItem from="1597803614791" duration="288000" />
       <workItem from="1597803989098" duration="80757000" />
       <workItem from="1598498813547" duration="11430000" />
+      <workItem from="1598524117021" duration="116000" />
+      <workItem from="1598524302298" duration="14015000" />
     </task>
     <servers />
   </component>
@@ -156,22 +190,26 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="100" y="100" width="1480" height="850" key="DiffContextDialog/-907.-1440.3440.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1597853110589" />
-    <state width="1659" height="295" key="GridCell.Tab.0.bottom" timestamp="1598411361594">
+    <state width="1659" height="295" key="GridCell.Tab.0.bottom" timestamp="1598524079323">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1659" height="295" key="GridCell.Tab.0.bottom/-907.-1440.3440.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1598411361594" />
-    <state width="1659" height="295" key="GridCell.Tab.0.center" timestamp="1598411361591">
+    <state width="1659" height="295" key="GridCell.Tab.0.bottom/0.0.1680.1050/1680.-719.1080.1920@0.0.1680.1050" timestamp="1598524079323" />
+    <state width="1659" height="295" key="GridCell.Tab.0.center" timestamp="1598524079322">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1659" height="295" key="GridCell.Tab.0.center/-907.-1440.3440.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1598411361591" />
-    <state width="1659" height="295" key="GridCell.Tab.0.left" timestamp="1598411361590">
+    <state width="1659" height="295" key="GridCell.Tab.0.center/0.0.1680.1050/1680.-719.1080.1920@0.0.1680.1050" timestamp="1598524079322" />
+    <state width="1659" height="295" key="GridCell.Tab.0.left" timestamp="1598524079321">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1659" height="295" key="GridCell.Tab.0.left/-907.-1440.3440.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1598411361590" />
-    <state width="1659" height="295" key="GridCell.Tab.0.right" timestamp="1598411361593">
+    <state width="1659" height="295" key="GridCell.Tab.0.left/0.0.1680.1050/1680.-719.1080.1920@0.0.1680.1050" timestamp="1598524079321" />
+    <state width="1659" height="295" key="GridCell.Tab.0.right" timestamp="1598524079322">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1659" height="295" key="GridCell.Tab.0.right/-907.-1440.3440.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1598411361593" />
+    <state width="1659" height="295" key="GridCell.Tab.0.right/0.0.1680.1050/1680.-719.1080.1920@0.0.1680.1050" timestamp="1598524079322" />
     <state x="100" y="100" width="1480" height="850" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1597853110590">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -193,13 +231,15 @@
     </state>
     <state x="360" y="114" width="1320" height="822" key="find.popup/-907.-1440.3440.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1598513115811" />
     <state x="213" y="116" width="1320" height="822" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1598376418196" />
-    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1598521430830">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state x="454" y="-840" width="766" height="696" key="search.everywhere.popup" timestamp="1598548086448">
+      <screen x="-123" y="-1080" width="1920" height="1080" />
     </state>
     <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/-907.-1417.3440.1417/0.0.1680.1050@0.0.1680.1050" timestamp="1597882515512" />
     <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/-907.-1440.3440.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1598499179272" />
-    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050/1680.-719.1080.1920@0.0.1680.1050" timestamp="1598521430830" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050/-123.-1080.1920.1080@0.0.1680.1050" timestamp="1598540784607" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050/1680.-719.1080.1920@0.0.1680.1050" timestamp="1598534201433" />
     <state x="513" y="307" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1598462706065" />
+    <state x="454" y="-840" width="766" height="696" key="search.everywhere.popup/0.23.1680.1027/-123.-1080.1920.1080@-123.-1080.1920.1080" timestamp="1598548086448" />
     <state x="570" y="369" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1598419836604">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>

@@ -1,17 +1,12 @@
 ---
-
 hide: false
 type: "post"
 title: "JavaScript 비동기 처리의 이해"
+tag: ["JavaScript", "자바스크립트", "ES6", "Promise"]
+date: "2020-06-25"
 desc: "비동기 작업을 보다 편리하게 처리하도록 ES6에 도입 되었다. lib 형태로 있던 기능이 JavaScript로 이전된 경우이다. ... 콜백으로 비동기 처리 코드를 작성하지 않고 이러한 사고 방식를 벗어나 기본 코드 작성 방식으로 코드를 작성할 수 있도록 도와준다. 일반적으로 `await` 의 대상이 되는 비동기 처리 코드는 Axios 등 프로미스를 반환하는 API 호출 함수이다."
-tag : ["javascript", "ES6", "promise"]
-date : "2020-06-25"
-
 ---
-
-# JavaScript 비동기 처리의 이해
-
-![img1](_2020-07-01__3.26.44.png)
+![img2](_2020-07-01__3.26.44.png)
 
 ## Promise
 
@@ -80,7 +75,7 @@ process();
 
 콜백으로 비동기 처리 코드를 작성하지 않고 이러한 사고 방식를 벗어나 기본 코드 작성 방식으로 코드를 작성할 수 있도록 도와준다. 일반적으로 `await` 의 대상이 되는 비동기 처리 코드는 Axios 등 프로미스를 반환하는 API 호출 함수이다. 
 
-`await` 를 사용하지 않았다면 데이터를 받아온 시점에 콘솔을 출력 할 수 있게 콜백 함수나, `.then()` 등을 사용해야 한다. 하지만 `async` `await` 문법 사용으로 비동기 처리 코드에 대한 사고를 하지 않아도 되는 것이다.
+`await`를 사용하지 않았다면 데이터를 받아온 시점에 콘솔을 출력 할 수 있게 콜백 함수나, `.then()`등을 사용해야 한다. 하지만 `async` `await` 문법 사용으로 비동기 처리 코드에 대한 사고를 하지 않아도 되는 것이다.
 
 ## Promise.all
 
@@ -121,7 +116,6 @@ process();
 ```javascript
 async function process() {
 	try{
-
 		const [dog, rabbit, cat] = await Promise.all([
 	    getDog(),
 	    getRabbit(),

@@ -1,5 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: Ubuntu,Noto Sans KR,sans-serif;
+}
+
 html {
-  font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
@@ -21,6 +31,11 @@ nav,
 section,
 summary {
   display: block;
+}
+
+footer {
+  text-align: center;
+  padding: 50px 0;
 }
 audio,
 canvas,
@@ -231,7 +246,7 @@ h1 {
   margin-bottom: 1.45rem;
   color: inherit;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 2.25rem;
@@ -248,7 +263,7 @@ h2 {
   margin-bottom: 1.45rem;
   color: inherit;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 1.62671rem;
@@ -265,7 +280,7 @@ h3 {
   margin-bottom: 1.45rem;
   color: inherit;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 1.38316rem;
@@ -282,7 +297,7 @@ h4 {
   margin-bottom: 1.45rem;
   color: inherit;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 1rem;
@@ -299,7 +314,7 @@ h5 {
   margin-bottom: 1.45rem;
   color: inherit;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 0.85028rem;
@@ -316,7 +331,7 @@ h6 {
   margin-bottom: 1.45rem;
   color: inherit;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 0.78405rem;
@@ -333,7 +348,7 @@ hgroup {
   margin-bottom: 1.45rem;
 }
 ul {
-  margin-left: 1.45rem;
+  margin-left: 0;
   margin-right: 0;
   margin-top: 0;
   padding-bottom: 0;
@@ -341,6 +356,7 @@ ul {
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 1.45rem;
+  list-style: none;
   list-style-position: outside;
   list-style-image: none;
 }
@@ -385,6 +401,7 @@ p {
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 1.45rem;
+  font-size:0.9rem;
 }
 figure {
   margin-left: 0;
@@ -400,11 +417,11 @@ pre {
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
-  margin-bottom: 1.45rem;
+  margin-bottom: 1.65rem;
   font-size: 0.85rem;
   line-height: 1.42;
   background: hsla(0, 0%, 0%, 0.04);
-  border-radius: 3px;
+  border-radius: 5px;
   overflow: auto;
   word-wrap: normal;
   padding: 1.45rem;
@@ -584,19 +601,19 @@ th:first-child,
 td:first-child {
   padding-left: 0;
 }
+tt,
+code {
+  color: white;
+  background-color: hsl(214, 55%, 69%);
+  border-radius: 3px;
+  font-family: "SFMono-Regular", Consolas, "Roboto Mono", "Droid Sans Mono",
+  "Liberation Mono", Menlo, Courier, monospace;
+  padding: 0.2em 0.1em 0.2em 0.4em;
+  margin-right: 0.2em;
+}
 th:last-child,
 td:last-child {
   padding-right: 0;
-}
-tt,
-code {
-  background-color: hsla(0, 0%, 0%, 0.04);
-  border-radius: 3px;
-  font-family: "SFMono-Regular", Consolas, "Roboto Mono", "Droid Sans Mono",
-    "Liberation Mono", Menlo, Courier, monospace;
-  padding: 0;
-  padding-top: 0.2em;
-  padding-bottom: 0.2em;
 }
 pre code {
   background: none;
@@ -619,4 +636,138 @@ pre tt:after {
   html {
     font-size: 100%;
   }
+}
+
+
+/* Prism */
+
+/**
+ * prism.js tomorrow night eighties for JavaScript, CoffeeScript, CSS and HTML
+ * Based on https://github.com/chriskempson/tomorrow-theme
+ * @author Rose Pritchard
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+  color: #ccc;
+  background: none;
+  font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+  font-size: 0.9rem;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 1.5;
+
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
+  tab-size: 4;
+
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+  padding: 1em;
+  margin: 1.5em 0;
+  overflow: auto;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+  background: #2d2d2d;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+  padding: .1em;
+  border-radius: .4em;
+  white-space: normal;
+  color:#ffffff;
+  background-color: hsl(214, 55%, 69%);
+  border-radius: 3px;
+  font-size:0.9rem;
+  font-family: Consolas, "Roboto Mono", "Droid Sans Mono",
+  "Liberation Mono", Menlo, Courier, monospace;
+  padding: 0.2em 0.1em 0.2em 0.4em;
+  margin-right: 0.2em;
+}
+
+.token.comment,
+.token.block-comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+  color: #999;
+}
+
+.token.punctuation {
+  color: #ccc;
+}
+
+.token.tag,
+.token.attr-name,
+.token.namespace,
+.token.deleted {
+  color: #e2777a;
+}
+
+.token.function-name {
+  color: #6196cc;
+}
+
+.token.boolean,
+.token.number,
+.token.function {
+  color: #f08d49;
+}
+
+.token.property,
+.token.class-name,
+.token.constant,
+.token.symbol {
+  color: #f8c555;
+}
+
+.token.selector,
+.token.important,
+.token.atrule,
+.token.keyword,
+.token.builtin {
+  color: #cc99cd;
+}
+
+.token.string,
+.token.char,
+.token.attr-value,
+.token.regex,
+.token.variable {
+  color: #7ec699;
+}
+
+.token.operator,
+.token.entity,
+.token.url {
+  color: #67cdcc;
+}
+
+.token.important,
+.token.bold {
+  font-weight: bold;
+}
+.token.italic {
+  font-style: italic;
+}
+
+.token.entity {
+  cursor: help;
+}
+
+.token.inserted {
+  color: green;
 }

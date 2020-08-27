@@ -1,16 +1,22 @@
-import React, { useEffect } from "react";
-import styled, { StyledComponent } from "styled-components";
-// import PostTagListComp from "../PostList/PostTagListComp";
+import React, { useEffect } from "react"
+import styled from "styled-components";
 import Prism from "prismjs";
-import {Node} from '../../types';
+import { Node } from "../../types"
+import PostTagListComp from "../post-list/PostTagListComp"
+import TagListComp from "../tag/TagListComp"
+
+type PostPropsType = {
+  markdown : Node
+}
 
 type PostTitleType = {
   pointText : string
 }
 
-const PostComp: React.FC<Node> = ({markdown}) => {
-  const {html, frontmatter: {title, tags, date}} = markdown;
-  console.log(date);
+const PostComp: React.FC<PostPropsType> = ({markdown}) => {
+
+  const {html, frontmatter: {title, date, tag}} = markdown;
+
   useEffect(() => {
     Prism.highlightAll();
   });
@@ -18,24 +24,26 @@ const PostComp: React.FC<Node> = ({markdown}) => {
   return (
     <ContentWrap>
       <PostWrap>
-        <PostTitle pointText={title.substring(0,1)}>{title}</PostTitle>
-        {/*<PostDate>{date}</PostDate>*/}
-        {/*<PostTagListComp tags={tag}/>*/}
-        <PostContent dangerouslySetInnerHTML={{ __html: html}}></PostContent>
+        <PostTitle pointText={title.substring(0, 1)}>{title}</PostTitle>
+        <PostDate>{date}</PostDate>
+        <PostTagListComp tags={tag} />
+        <PostContent dangerouslySetInnerHTML={{ __html: html }}></PostContent>
       </PostWrap>
+      <TagListComp />
     </ContentWrap>
-  );
+  )
 }
 
 export default PostComp;
 
 const ContentWrap = styled.div`
   display: flex;
+  justify-content: space-between;
 `;
 
 const PostWrap = styled.div`
   position:relative;
-  margin-top: 170px;
+  padding-top: 100px;
   width: 740px;
 `;
 
@@ -49,7 +57,7 @@ const PostTitle = styled.div`
     position: absolute;
     font-size:7rem;
     left: -30px;
-    top:-10px;
+    top:90px;
     opacity:0.4;
   }
 `;
@@ -62,6 +70,7 @@ const PostDate = styled.div`
 
 const PostContent = styled.div`
   margin-top:50px;
+  line-height: 1.7em;
   
   & ul {
     padding-left: 40px;

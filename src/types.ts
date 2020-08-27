@@ -1,3 +1,13 @@
+export type Site = {
+  site: {
+    siteMetadata: {
+      title: string
+      description: string
+      author: string
+    }
+  }
+}
+
 export type PostListInfoType = {
   curPage: number
   count : number
@@ -6,7 +16,6 @@ export type PostListInfoType = {
 }
 
 export type PostListType = {
-  location : Location
   data : AllMarkdownRemark
 }
 
@@ -19,6 +28,7 @@ export type AllMarkdownRemark = {
   allMarkdownRemark: {
     edges: Edges
   }
+  site? : Site
 };
 
 export type Edge = {
