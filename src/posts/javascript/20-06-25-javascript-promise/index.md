@@ -17,7 +17,7 @@ date : "2020-06-25"
 
 비동기 작업을 보다 편리하게 처리하도록 ES6에 도입 되었다. lib 형태로 있던 기능이 JavaScript로 이전된 경우이다.
 
-```jsx
+```javascript
 const myPromise = new Promise((resolve, reject) => {
   setTimeout(() => {
     resolve("result");
@@ -33,7 +33,7 @@ myPromise
   });
 ```
 
-```jsx
+```javascript
 function increaseAndPrint(n) {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
@@ -64,7 +64,7 @@ increaseAndPrint(0)
 
 ## Async, Await
 
-```jsx
+```javascript
 function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
@@ -84,7 +84,7 @@ process();
 
 ## Promise.all
 
-```jsx
+```javascript
 function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
@@ -118,7 +118,7 @@ process();
 
 위와 같이 각 함수는 1, 3, 0.5초의 시간이 지난 뒤 결과 값을 return 해주는 async await 문법이 적용된 코드를 Promise.all 을 사용한다면 아래와 같이 코드를 작성 한다.
 
-```jsx
+```javascript
 async function process() {
 	try{
 
@@ -146,7 +146,7 @@ async function process() {
 
 Promise.race는 위와 같은 구조일 경우 3개의 파라미터 함수 중 코드 수행이 가장 빨리 끝난 값 1개만을 반환 한다. try{}catch{} 의 경우 가장 빨리 코드 수행이 끝난 함수의 error 만 잡아 낼 수 있다. 
 
-```jsx
+```javascript
 async function process() {
   try {
     const result = await Promise.race([

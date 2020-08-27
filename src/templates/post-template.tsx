@@ -1,17 +1,19 @@
+'use strict';
+
 import React from 'react';
 import Layout from '../components/layout';
-// import PostComp from "../components/Post/PostComp"
-import { graphql } from "gatsby"
+import PostComp from "../components/Post/PostComp"
+import { PageProps, graphql } from "gatsby"
+import { PostPropsType } from "../types"
 
-const PostTemplate = React.memo(props => {
-  const {html} = props.data.post;
+const PostTemplate: React.FC<PageProps<PostPropsType>>  = React.memo(({ data }) => {
+  console.log(data.post);
   return (
     <Layout>
-      <div dangerouslySetInnerHTML={{ __html: html}}></div>
-      {/*<PostComp markdown={props.data.post}/>*/}
+      <PostComp markdown={data.post}/>
     </Layout>
-  );
-});
+  )
+})
 
 PostTemplate.displayName = 'PostTemplate';
 
