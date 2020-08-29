@@ -28,7 +28,8 @@ export default TagListComp;
 
 const TagListWrap = styled.div`
   position: relative;
-  margin-top: 100px;
+  margin-top: 116px;
+  padding-top:20px;
   width: 350px;
   
   &::before {
@@ -55,8 +56,7 @@ const TagListWrap = styled.div`
     color: white;
     background-color: #6196cc;
   }
-  
-  .taglist___tagbox + .taglist___tagbox {
+  .taglist___tagbox{
     margin-left: 4px;
   }
   

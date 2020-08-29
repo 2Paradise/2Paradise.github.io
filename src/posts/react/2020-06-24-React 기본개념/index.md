@@ -1,7 +1,6 @@
 ---
 hide: false
 type: "post"
-postUrl: "/post/2020-06-24-react-basic"
 title: "React 기본개념"
 tag: ["React", "JavaScript"]
 date: "2020-06-24"
@@ -32,7 +31,7 @@ desc: "요즘의 웹은 단순 웹페이지가 아닌 웹 app의 형태를 띄�
 
 Virtual DOM은 가상의 DOM으로 변화(Mutation)가 일어나면 실제로 브라우저의 DOM에 새로운것을 넣는것이 아니라, JS로 이뤄진 가상 DOM에 한번 렌더링을 하고, 기존의 DOM과 비교를 한 다음에 정말 변화가 필요한 곳에만 UPDATE를 해주는 것이다. 
 
-![React%20dddbc585123248b9975179cfdd0a805b/u6YnxUS.png](https://i.imgur.com/QRtqIui.png)
+![domimage](./u6YnxUS.png)
 
 Virtual DOM은 DOM 변화를 최소화 시켜주는 역할을 하며, 이 횟수를 최소화 시키는 것은 성능 적으로 중요한 이슈이다. 
 

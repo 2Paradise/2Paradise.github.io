@@ -54,8 +54,8 @@ const ContentWrap = styled.div`
 `;
 
 const PostListWrap = styled.div`
-  width: 740px;
-  padding:50px 0;
+  width: 840px;
+  padding:60px 0;
   
   .tagTitle {
     padding: 10px 10px;

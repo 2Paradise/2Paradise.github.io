@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -11,61 +14,42 @@
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:develop-v1" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:develop" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b678042-0e03-48bc-9f92-7ce05eae8f4c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/blog.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/common/PagingComp.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/header.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/layout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/post-list/PostListComp.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/post-list/PostTagListComp.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/tag/TagListComp.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/constants/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hook/use-tag-list.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/posts/javascript/2020-06-22-javascript-basic/index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/posts/javascript/2020-06-23-javascript-prototype/index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/posts/javascript/2020-06-24-javascript-util-doc/index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/posts/react/2020-06-24-React 기본개념/index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resource/fonts/Roboto-Black.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resource/fonts/Roboto-BlackItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resource/fonts/Roboto-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resource/fonts/Roboto-BoldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resource/fonts/Roboto-Italic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resource/fonts/Roboto-Light.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resource/fonts/Roboto-LightItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resource/fonts/Roboto-Medium.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resource/fonts/Roboto-MediumItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resource/fonts/Roboto-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resource/fonts/Roboto-Thin.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resource/fonts/Roboto-ThinItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/templates/post-list-template.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/convertText.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/posts/Etc/2020-06-31-GatsbyJS-blog-for0Mac/_2020-06-21__9.48.12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/posts/Etc/2020-06-31-GatsbyJS-blog-for0Mac/_2020-06-22__2.09.04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/posts/Etc/2020-06-31-GatsbyJS-blog-for0Mac/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/posts/react/2020-06-24-React 기본개념/u6YnxUS.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/posts/react/2020-06-27-react-jsx-basic/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/posts/react/2020-06-28-React-Hook/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/posts/react/2020-06-29-useReducer-Hook/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/posts/react/2020-06-30-Create-Custom-Hook/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/posts/react/2020-07-01-ReactContextAPI/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/posts/react/2020-07-02-react-Immer/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/posts/react/2020-07-03-react-class-component/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/posts/react/2020-07-05-react-api/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/posts/react/2020-07-11-react-contenxt-async/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/posts/react/2020-07-12-react-router/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/posts/react/2020-07-20-Redux/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/posts/react/2020-07-20-Redux/tree.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/posts/react/2020-07-21-react-redux-keyword/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/posts/react/2020-07-22-react-connect-hoc/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/posts/react/2020-07-23-react-redux-middleware/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/posts/react/2020-07-23-react-redux-middleware/next-vs-dispatch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/posts/react/2020-07-23-react-redux-middleware/redux-middleware.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/posts/react/2020-07-25-react-component-styling/Untitled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/posts/react/2020-07-25-react-component-styling/index.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatsby-browser.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-browser.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatsby-lib/on-create-pages.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-lib/on-create-pages.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/post-list/PostListComp.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/post-list/PostListComp.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/post/PostComp.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/post/PostComp.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/posts/javascript/20-06-25-javascript-promise/_2020-07-01__3.26.44.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/posts/javascript/2020-06-25-javascript-promise/_2020-07-01__3.26.44.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/posts/javascript/20-06-25-javascript-promise/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/posts/javascript/2020-06-25-javascript-promise/index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/templates/post-list-template.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/templates/post-template.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/post-template.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/types.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/tag/TagListComp.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/tag/TagListComp.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/posts/react/2020-06-24-React 기본개념/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/posts/react/2020-06-24-React 기본개념/index.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +83,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/post" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/posts/react/2020-07-25-react-component-styling" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -110,18 +94,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/components/post" />
-      <recent name="$PROJECT_DIR$/src/components" />
-      <recent name="$PROJECT_DIR$/src/utils" />
-      <recent name="$PROJECT_DIR$/src/components/post-list" />
-      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/posts/react/2020-07-25-react-component-styling" />
+      <recent name="$PROJECT_DIR$/src/posts/react/2020-07-23-react-redux-middleware" />
+      <recent name="$PROJECT_DIR$/src/posts/react/2020-07-22-react-connect-hoc" />
+      <recent name="$PROJECT_DIR$/src/posts/react/2020-07-21-react-redux-keyword" />
+      <recent name="$PROJECT_DIR$/src/posts/react/2020-07-20-Redux" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/posts/react/2020-07-20-Redux" />
+      <recent name="$PROJECT_DIR$/src/posts/react/2020-06-24-React 기본개념" />
+      <recent name="$PROJECT_DIR$/src/posts/react/2020-06-27-react-jsx-basic" />
       <recent name="$PROJECT_DIR$/src/posts/javascript/20-06-25-javascript-promise" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/src/posts/react/2020-06-24-React 기본개념" />
-      <recent name="$PROJECT_DIR$/src/posts/javascript/2020-06-25-JavaScript 비동기 처리의 이해" />
-      <recent name="$PROJECT_DIR$/src/posts/javascript/2020-06-24-JavaScript 알고 있으면 유용한 문법" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -137,7 +121,7 @@
       <workItem from="1597803989098" duration="80757000" />
       <workItem from="1598498813547" duration="11430000" />
       <workItem from="1598524117021" duration="116000" />
-      <workItem from="1598524302298" duration="14015000" />
+      <workItem from="1598524302298" duration="23094000" />
     </task>
     <servers />
   </component>
@@ -155,7 +139,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="develop-v1" />
+                        <option value="develop" />
                       </list>
                     </value>
                   </entry>
@@ -231,11 +215,12 @@
     </state>
     <state x="360" y="114" width="1320" height="822" key="find.popup/-907.-1440.3440.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1598513115811" />
     <state x="213" y="116" width="1320" height="822" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1598376418196" />
-    <state x="454" y="-840" width="766" height="696" key="search.everywhere.popup" timestamp="1598548086448">
+    <state x="454" y="-840" width="766" height="696" key="search.everywhere.popup" timestamp="1598722651307">
       <screen x="-123" y="-1080" width="1920" height="1080" />
     </state>
     <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/-907.-1417.3440.1417/0.0.1680.1050@0.0.1680.1050" timestamp="1597882515512" />
     <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/-907.-1440.3440.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1598499179272" />
+    <state x="454" y="-840" width="766" height="696" key="search.everywhere.popup/0.0.1680.1050/-123.-1080.1920.1080@-123.-1080.1920.1080" timestamp="1598722651307" />
     <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050/-123.-1080.1920.1080@0.0.1680.1050" timestamp="1598540784607" />
     <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050/1680.-719.1080.1920@0.0.1680.1050" timestamp="1598534201433" />
     <state x="513" y="307" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1598462706065" />

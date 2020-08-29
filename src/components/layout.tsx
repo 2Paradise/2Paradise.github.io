@@ -43,6 +43,6 @@ const ContentWrap = styled.div`
   padding:0 1.0875rem 1.45rem;
   
   ${(prop: {isWide: boolean}) => !prop.isWide && css`
-    max-width: 1200px;
+    max-width: 1300px;
   `};
 `;

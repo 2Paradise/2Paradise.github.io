@@ -43,27 +43,28 @@ const ContentWrap = styled.div`
 
 const PostWrap = styled.div`
   position:relative;
-  padding-top: 100px;
-  width: 740px;
+  padding-top: 70px;
+  width: 840px;
 `;
 
 const PostTitle = styled.div`
   
   font-weight: bold;
   font-size: 2rem;
+  line-height: 1.2em;
   
   &::before {
     content: "${(props: PostTitleType) => props.pointText}";
     position: absolute;
     font-size:7rem;
     left: -30px;
-    top:90px;
+    top:70px;
     opacity:0.4;
   }
 `;
 
 const PostDate = styled.div`
-  font-size:0.8rem;
+  font-size:0.9rem;
   border-bottom: 1px solid #3399ff;
   padding: 10px 0;
 `;
