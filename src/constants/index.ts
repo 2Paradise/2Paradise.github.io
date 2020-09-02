@@ -26,7 +26,7 @@ export const FACEBOOK_ID: string = 'robinnw';
 export const LINKEDIN_ID: string = '';
 
 // Disqus (Recommend you to use this)
-export const DISQUS_ID: string = '2Paradise';
+export const DISQUS_ID: string = '2paradise';
 
 export const COMMON_COLORS: CommonColorType = {
   green:  "#428E71"

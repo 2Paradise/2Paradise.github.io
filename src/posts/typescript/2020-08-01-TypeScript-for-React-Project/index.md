@@ -158,7 +158,7 @@ $ npx creat-react-app '프로젝트명' --typescript
 
 ## 상태관리 useState
 
-```tsx
+```javascript
 import React, {useState} from "react";
 
 type MyFormProps = {
@@ -204,7 +204,7 @@ export default MyForm;
 
 ## useReducer
 
-```tsx
+```javascript
 import React, {useReducer} from "react";
 
 type Action = {type: 'INCREASE'} | {type: 'DECREASE'};
@@ -242,7 +242,7 @@ export default Counter;
 
 ReducerSample.tsx
 
-```tsx
+```javascript
 import React, {useReducer} from "react";
 
 type Color = 'red' | 'orange' | 'yellow';
@@ -331,7 +331,7 @@ export default ReducerSample;
 
 SampleContext.tsx
 
-```tsx
+```javascript
 import React, {createContext, Dispatch, useContext, useReducer} from "react";
 
 type Color = 'red' | 'orange' | 'yellow';

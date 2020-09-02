@@ -3,6 +3,7 @@ module.exports = {
     title: `2P Enginnering Blog`,
     description: `2P Front End Enginnering Blog`,
     author: `@2Paradise`,
+    siteUrl : "https://2Paradise.github.io",
   },
   plugins: [
     {

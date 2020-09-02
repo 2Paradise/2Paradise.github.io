@@ -1,27 +1,22 @@
-import React, { ReactElement } from "react"
-import { useStaticQuery, graphql } from "gatsby"
-
+import React from "react"
+import {Helmet} from 'react-helmet';
 import Header from "./header"
 import "./layout.css"
 import styled, {css} from 'styled-components';
+import useSiteMetadata from "../query/use-site-metadata"
 
 type layoutProps = {
   isWide: boolean
 };
 
 const Layout: React.FC<layoutProps> = ({ children, isWide = false }) => {
-  const data = useStaticQuery(graphql`
-    query SiteTitleQuery {
-      site {
-        siteMetadata {
-          title
-        }
-      }
-    }
-  `);
+  const data = useSiteMetadata();
 
   return (
     <>
+      <Helmet title={data.title}>
+        <meta name="og:title" content={data.title} />
+      </Helmet>
       <Header/>
       <ContentWrap isWide={isWide}>
         <main>{children}</main>

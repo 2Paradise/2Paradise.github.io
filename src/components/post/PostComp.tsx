@@ -1,9 +1,11 @@
-import React, { useEffect } from "react"
+import React, { useEffect } from "react";
 import styled from "styled-components";
 import Prism from "prismjs";
-import { Node } from "../../types"
-import PostTagListComp from "../post-list/PostTagListComp"
-import TagListComp from "../tag/TagListComp"
+import { Node } from "../../types";
+import PostTagListComp from "../post-list/PostTagListComp";
+import TagListComp from "../tag/TagListComp";
+import { DiscussionEmbed } from "disqus-react";
+import { DISQUS_ID, SITE_URL } from "../../constants"
 
 type PostPropsType = {
   markdown : Node
@@ -15,7 +17,12 @@ type PostTitleType = {
 
 const PostComp: React.FC<PostPropsType> = ({markdown}) => {
 
-  const {html, frontmatter: {title, date, tag}} = markdown;
+  const { fields: {slug}, html, frontmatter: {title, date, tag}} = markdown;
+
+  const disqusConfig = {
+    shortname: DISQUS_ID,
+    config: { identifier: slug, title },
+  }
 
   useEffect(() => {
     Prism.highlightAll();
@@ -28,6 +35,7 @@ const PostComp: React.FC<PostPropsType> = ({markdown}) => {
         <PostDate>{date}</PostDate>
         <PostTagListComp tags={tag} />
         <PostContent dangerouslySetInnerHTML={{ __html: html }}></PostContent>
+        <DiscussionEmbed {...disqusConfig}/>
       </PostWrap>
       <TagListComp />
     </ContentWrap>
@@ -69,8 +77,9 @@ const PostDate = styled.div`
 `;
 
 const PostContent = styled.div`
-  margin-top:50px;
+  margin:50px 0 70px 0;
   line-height: 1.7em;
+  
   
   & ul {
     padding-left: 40px;
