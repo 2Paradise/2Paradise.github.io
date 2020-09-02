@@ -5,6 +5,7 @@ title: "Redux Middleware"
 tag: ["React", "Redux", "Redux Middleware"]
 date: "2020-07-23"
 desc: "리덕스가 지닌 핵심 기능으로 context API, mobx 와 차별화 되는 강력한 기능이다. redux를 사용하는데 middleware를 사용하지 않으면 차라리 context API 나 useReducer를 사용하는게 나을 수도 있다. 미들웨어를 액션과 리듀서 사이의 중간자로 이해해도 좋다."
+cate: "react"
 ---
 
 리덕스가 지닌 핵심 기능으로 context API, mobx 와 차별화 되는 강력한 기능이다. redux를 사용하는데 middleware를 사용하지 않으면 차라리 context API 나 useReducer를 사용하는게 나을 수도 있다. 

@@ -5,6 +5,7 @@ title: "Create Custom Hook"
 tag: ["React", "Custom Hook", "Hook"]
 date: "2020-06-30"
 desc: "컴포넌트를 만들다 보면 반복되는 로직이 발생한다. input을 관리하는 꾀나 자주 작성하게되는 코드이다. 이런 경우 custom hook을 만들 수 있다. input 상태를 관리하는 hook을 만들어 보자. 아래는 useReducer 를 이용하여 만든 useInputs custom hook 이다."
+cate: "react"
 ---
 
 컴포넌트를 만들다 보면 반복되는 로직이 발생한다. input을 관리하는 꾀나 자주 작성하게되는 코드이다. 

@@ -5,6 +5,7 @@ title: "React useReducer"
 tag: ["React", "useReducer", "Hook"]
 date: "2020-06-29"
 desc: "이전에는 컴포넌트의 상태를 업데이트를 할 때에 useState를 사용하여 설정해 주었는데 useReducer도 가능하다. 어떤 차이가 있는지 살펴본다면 useState에서는 설정할 다음 상태를 직접 지정해주는 형식인 반면에 useReducer는 액션 객체를 기반으로 업데이트를 한다. 액션 객체는 업데이트 할 때 참조하는 객체 인데, type 값을 통해 어떤 업데이트를 할지 설정하며 참조 값을 넣을 수도 있다."
+cate: "react"
 ---
 
 # useReducer Hook

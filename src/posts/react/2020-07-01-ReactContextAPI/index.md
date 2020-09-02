@@ -5,6 +5,7 @@ title: "Context API를 통한 전역관리"
 tag: ["React", "Context API"]
 date: "2020-07-01"
 desc: "지금 까지 배운 컴포넌트의 props를 전달 하기 위해선 컴포넌트의 DEPTH 가 깊어 질 수록 비효율 적으로 props를 컴포넌트 선언 시마다 전달하는 수고가 있었다. 이에 Context API를 통해 전역 값 관리 하는 방법을 알아 보자."
+cate: "react"
 ---
 
 지금 까지 배운 컴포넌트의 props를 전달 하기 위해선 컴포넌트의 DEPTH 가 깊어 질 수록 비효율 적으로 props를 컴포넌트 선언 시마다 전달하는 수고가 있었다. 이에 Context API를 통해 전역 값 관리 하는 방법을 알아 보자. 

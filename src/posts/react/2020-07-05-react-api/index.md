@@ -5,6 +5,7 @@ title: "React API 연동"
 tag: ["React", "API", "axios"]
 date: "2020-07-05"
 desc: "axios는 REST 기반 API를 요청 할 때 promise 기반으로 처리 할 수 있게 해주는 라이브러리이다. API 요청의 기본적인 방법은 useState 와 useEffect로 데이터를 로딩하는 방법이다. API를 요청 할때는 아래의 3가지 상태를 관리해야 한다."
+cate: "react"
 ---
 
 프로젝트를 생성하고 axios 라이브러리 설치

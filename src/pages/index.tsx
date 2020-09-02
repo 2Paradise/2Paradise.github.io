@@ -2,53 +2,25 @@ import React from "react";
 
 import Layout from "../components/layout";
 import styled from "styled-components";
+import { Edges } from "../types"
+import HomeMainComp from "../components/home/HomeMainComp"
+import HomeSectionComp from "../components/home/HomeSectionComp"
 
-const IndexPage: React.FC = () => (
-  <Layout isWide>
-    <HomeWrap>
-      <ContentWrap>
-        <p className="___title">
-          2Paradise<br/>Engineering Blog
-        </p>
-        <div className="___videobox">
-          <video src={"../../videoplayback.mp4"} autoPlay muted loop/>
-        </div>
-      </ContentWrap>
-    </HomeWrap>
-  </Layout>
-)
+const IndexPage: React.FC<Edges> = () => {
+  return (
+    <Layout isWide>
+      <HomeMainComp />
+      <SectionWrap>
+        <HomeSectionComp/>
+      </SectionWrap>
+    </Layout>
+  )
+};
 
 export default IndexPage;
 
-const HomeWrap = styled.section`
-  position: relative;
-  background-color: black;
-  z-index: -2;
+const SectionWrap = styled.section`
+  max-width: 1300px;
+  margin: 40px auto;
 `;
 
-const ContentWrap = styled.div`
-  max-width: 1300px;
-  margin: 0 auto;
-  
-  & .___title{
-    text-align: left;
-    font-width: bold;
-    color:#ffffff;
-    font-size:5rem;
-    line-height: 1.2em;
-    padding:300px 0;
-  }
-  
-  & .___videobox {
-    position: absolute;
-    width: 60vw;
-    right: 0;
-    top: 50%;
-    transform: translateY(-50%);
-    z-index: -1;
-    
-    video {
-      width: 100%;
-    }
-  }
-`;

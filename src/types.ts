@@ -48,6 +48,7 @@ export type Node = {
     desc?: string
     tag? : Array<string>
     date? : string
+    cate?: string
   }
   html: string
   id: string
@@ -61,4 +62,17 @@ export type CommonColorType = {
   white?: string
   blue?: string
   black?: string
+  skyblue?: string
+}
+
+export type cateObjectType = {
+  icon? : string
+  color: string | undefined
+}
+
+export type cateType = {
+  javascript : cateObjectType
+  react : cateObjectType
+  etc : cateObjectType
+  typescript: cateObjectType
 }

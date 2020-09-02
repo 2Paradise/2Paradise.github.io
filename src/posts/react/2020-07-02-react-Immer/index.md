@@ -5,6 +5,7 @@ title: "Immer를 이용한 불변성 지키기"
 tag: ["React", "Context API"]
 date: "2020-07-02"
 desc: "immer 를 사용하면 불변성을 해치는 코드를 작성하여도 대신 불변성을 지켜준다. 기존의 SPRED 를 이용한 처리 로직을 `immer` lib를 사용하여 변경해 보았다. TOGGLE_USER와 같이 복잡해 보이는 로직의 경우 `immer` 사용이 좀 더 직관적으로 소스를 이해하는데 도움이 되지만 굳이 꼭 사용해야 하는 lib는 아니다."
+cate: "react"
 ---
 
 immer 를 사용하면 불변성을 해치는 코드를 작성하여도 대신 불변성을 지켜준다. 

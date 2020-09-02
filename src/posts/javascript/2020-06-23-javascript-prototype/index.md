@@ -4,9 +4,9 @@ type: "post"
 postUrl: "/post/2020-06-23-javascript-prototype"
 title: "JavaScript 프로토타입과 클래스"
 tag: ["JavaScript", "자바스크립트", "ES6"]
-cate: "JavaScript"
 date: "2020-06-23"
 desc: "자바 스크립트는 프로토타입 기반의 언어이다. 프로토타입이 자바스트립트 그 자체이기 때문에 집고 넘어갈 필요가 있다. 객체 생성자는 함수를 통해 새로운 객체를 만들고 그 안에 넣고 싶은 값 또는 함수를 구현할 수 있게 해준다. 대문자로 시작하며 new 선언으로 생성 할 수 있다."
+cate: "javascript"
 ---
 
 # Prototype

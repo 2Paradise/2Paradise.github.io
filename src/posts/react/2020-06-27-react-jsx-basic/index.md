@@ -5,6 +5,7 @@ title: "React JSX 기본문법"
 tag: ["React", "jsx"]
 date: "2020-06-27"
 desc: "React의 Html 렌더링을 위해 사용되는 JSX의 기본 문법에 대해 알아보자. html 과 비슷하지만 몇가지 규칙이 있다. 태그는 꼭 닫혀 있어야 한다. 두 개 이상의 엘리먼트는 하나의 엘리먼트로 감싸져야 한다."
+cate: "react"
 ---
 
 # React JSX 기본문법

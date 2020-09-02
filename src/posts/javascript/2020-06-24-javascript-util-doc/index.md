@@ -4,9 +4,9 @@ type: "post"
 postUrl: "/post/2020-06-24-javascript-tip"
 title: "JavaScript 알고 있으면 유용한 문법"
 tag: ["JavaScript", "자바스크립트", "ES6"]
-cate: "JavaScript"
 date: "2020-06-24"
 desc: "javascript 코드 작성에 있어서 알고 있으면 유요한 정보에 대해 알아보자. ES6 문법에 익숙해지도록 학습하며 아래에서 언급한 내용들을 숙지하여 적제적소의 로직에 사용함에 있어 불편함이 없도록 인지해두면 유용한 정보들이다."
+cate: "javascript"
 ---
 
  javascript 코드 작성에 있어서 알고 있으면 유요한 정보에 대해 알아보자. ES6 문법에 익숙해지도록 학습하며 아래에서 언급한 내용들을 숙지하여 적제적소의 로직에 사용함에 있어 불편함이 없도록 인지해두면 유용한 정보들이다.

@@ -5,6 +5,7 @@ title: "Connect HOC 함수를 통해 Class형 component Redux 연동"
 tag: ["React", "HOC", "Conncet HOC", "Redux"]
 date: "2020-07-22"
 desc: "최근 Reat 버전에서는 connect HOC를 쓸 일이 거의 없다. useSelector 와 useDispatch 사용이 우선되어야 한다. 예전에 만들어진 프로젝트의 클래스형 컴포넌트라던지 함수형 컴포넌트로는 구현할 수 없는 component deep catch lifeCycle 메소드를 쓴다면 Connect 라는 함수를 사용한다. component의 props를 통해 리덕스의 상태 또는 액션을 디스패치 하는 함수를 받아 올 수 있다. 예전에는 connect 함수 사용이 메인이었지만, useSelector와 useDispatch 가 등장하면서 사용되지 않는다."
+cate: "react"
 ---
 
 최근 Reat 버전에서는 connect HOC를 쓸 일이 거의 없다. useSelector 와 useDispatch 사용이 우선되어야 한다. 예전에 만들어진 프로젝트의 클래스형 컴포넌트라던지 함수형 컴포넌트로는 구현할 수 없는 component deep catch lifeCycle 메소드를 쓴다면 Connect 라는 함수를 사용한다. 

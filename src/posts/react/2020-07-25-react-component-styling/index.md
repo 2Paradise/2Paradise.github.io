@@ -5,6 +5,7 @@ title: "React 컴포넌트 스타일링"
 tag: ["React", "CSS", "Styled-Components", "SASS"]
 date: "2020-07-25"
 desc: "CSS pre-processor 로서, 복잡한 작업을 쉽게 할 수 있게 해주고, 코드의 재활용성을 높여줄 뿐 만 아니라, 코드의 가독성을 높여 주어 유지보수를 쉽게 해준다."
+cate: "react"
 ---
 
 # Sass (Syntactically Awesome StyleSheet)

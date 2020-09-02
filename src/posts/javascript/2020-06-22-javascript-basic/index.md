@@ -5,6 +5,7 @@ title: "Javascript ES6 기본"
 tag: ["JavaScript", "자바스크립트", "ES6"]
 date: "2020-06-22"
 desc: "ECMAScript5는 2009년 12월에 등장하였다. ECMAScript2019가 나와있는 현재 아직도 많은 프로젝트에서는 ES5로 코딩이 되고 있다. 나 또한 ES6 문법은 생소하지만 이에 대한 학습의 필요성을 느끼고 Front-end 개발자로서 기초를 다진다는 생각으로 접근하려 한다."
+cate: "javascript"
 ---
 
  ECMAScript5는 2009년 12월에 등장하였다. ECMAScript2019가 나와있는 현재 아직도 많은 프로젝트에서는 ES5로 코딩이 되고 있다. 나 또한 ES6 문법은 생소하지만 이에 대한 학습의 필요성을 느끼고 Front-end 개발자로서 기초를 다진다는 생각으로 접근하려 한다.

@@ -5,6 +5,7 @@ title: "React Hook"
 tag: ["React", "React Hook", "Hook"]
 date: "2020-06-28"
 desc: "react component 가 처음 화면에 나타날 때, 사라질 때 특정 작업을 할 수 있게 해주고. 추가적으로 component의 props 나 상태가 바뀌어 업데이트 되거나 업데이트 되기 전에 작업을 등록 할 수 도 있다. 위와 같이 useEffect 함수를 import 한 후 호출 할 때 첫번째 파라미터에는 Mount 시점에 처리할 로직을 구현 하며, return 함수(Cleaner Function)로 "
+cate: "react"
 ---
 
 # React Hook

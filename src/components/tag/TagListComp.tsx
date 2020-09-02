@@ -2,7 +2,6 @@ import React from 'react';
 import styled from "styled-components";
 import useTagList from "../../hook/use-tag-list"
 import { Link } from "gatsby"
-import { converText } from "../../utils/convertText"
 import { COMMON_COLOR } from "../../constants"
 
 const TagListComp: React.FC = React.memo(() => {
