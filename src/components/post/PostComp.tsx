@@ -64,7 +64,6 @@ const PostTitle = styled.div`
 `;
 
 const PostDate = styled.div`
-  font-size:0.9rem;
   border-bottom: 1px solid #3399ff;
   padding: 10px 0;
 `;

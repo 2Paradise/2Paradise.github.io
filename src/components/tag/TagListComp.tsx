@@ -3,6 +3,7 @@ import styled from "styled-components";
 import useTagList from "../../hook/use-tag-list"
 import { Link } from "gatsby"
 import { converText } from "../../utils/convertText"
+import { COMMON_COLOR } from "../../constants"
 
 const TagListComp: React.FC = React.memo(() => {
 
@@ -10,7 +11,7 @@ const TagListComp: React.FC = React.memo(() => {
   const tags: Array<string> = Object.keys(tagsInfo);
 
   return (
-    <TagListWrap className="taglist">
+    <TagListWrap className="taglist" color={COMMON_COLOR}>
       <ul>
         {
           tags.map((tag, idx) => (
@@ -54,7 +55,7 @@ const TagListWrap = styled.div`
     font-size: 0.8rem;
     letter-spacing: 0.1em;
     color: white;
-    background-color: #6196cc;
+    background-color: ${props => props.color};
   }
   .taglist___tagbox{
     margin-left: 4px;

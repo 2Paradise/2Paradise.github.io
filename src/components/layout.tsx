@@ -38,9 +38,8 @@ const Layout: React.FC<layoutProps> = ({ children, isWide = false }) => {
 export default Layout;
 
 const ContentWrap = styled.div`
-  margin: 50px auto;
+  margin: 70px auto;
   min-height: 100%;
-  padding:0 1.0875rem 1.45rem;
   
   ${(prop: {isWide: boolean}) => !prop.isWide && css`
     max-width: 1300px;

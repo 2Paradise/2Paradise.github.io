@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `2P Enginnering Blog`,
+    description: `2P Front End Enginnering Blog`,
+    author: `@2Paradise`,
   },
   plugins: [
     {
@@ -46,7 +46,7 @@ module.exports = {
         background_color: `#3399ff`,
         theme_color: `#3399ff`,
         display: `minimal-ui`,
-        icon: `src/images/blog_logo.png`, // This path is relative to the root of the site.
+        icon: `src/images/blog-logo.jpeg`, // This path is relative to the root of the site.
       },
     },
     'gatsby-plugin-typescript',

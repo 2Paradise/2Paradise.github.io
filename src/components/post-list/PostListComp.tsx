@@ -6,6 +6,7 @@ import PostTagListComp from "./PostTagListComp";
 import { Edge, Edges, PostListInfoType } from "../../types";
 import PagingComp from "../common/PagingComp"
 import TagListComp from "../tag/TagListComp"
+import { COMMON_COLOR } from "../../constants"
 
 type PostListProps = {
   postData: Edges
@@ -19,7 +20,7 @@ const PostListComp: React.FC<PostListProps> = ({postData, listInfo, tag = ""}) =
 
   return (
     <ContentWrap>
-      <PostListWrap>
+      <PostListWrap color={COMMON_COLOR}>
         <div className="tagTitle">{listTitle}</div>
         <div className="postCount">{listInfo.count} post</div>
         <ul className="postlist-ul">
@@ -68,7 +69,7 @@ const PostListWrap = styled.div`
     font-size:1rem;
     font-weight: bold;
     color:#d4d4d5;
-    border-bottom: 0.5px solid #3399ff;
+    border-bottom: 0.5px solid ${props => props.color};
   }
   
   ul.postlist-ul {
@@ -111,6 +112,6 @@ const PostListWrap = styled.div`
   }
   
   ul.postlist-ul li .box-title a:hover {
-    color: #3399ff;
+    color: ${props => props.color};
   }
 `;

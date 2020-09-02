@@ -20,36 +20,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b678042-0e03-48bc-9f92-7ce05eae8f4c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/posts/Etc/2020-06-31-GatsbyJS-blog-for0Mac/_2020-06-21__9.48.12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/posts/Etc/2020-06-31-GatsbyJS-blog-for0Mac/_2020-06-22__2.09.04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/posts/Etc/2020-06-31-GatsbyJS-blog-for0Mac/index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/posts/react/2020-06-24-React 기본개념/u6YnxUS.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/posts/react/2020-06-27-react-jsx-basic/index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/posts/react/2020-06-28-React-Hook/index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/posts/react/2020-06-29-useReducer-Hook/index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/posts/react/2020-06-30-Create-Custom-Hook/index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/posts/react/2020-07-01-ReactContextAPI/index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/posts/react/2020-07-02-react-Immer/index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/posts/react/2020-07-03-react-class-component/index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/posts/react/2020-07-05-react-api/index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/posts/react/2020-07-11-react-contenxt-async/index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/posts/react/2020-07-12-react-router/index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/posts/react/2020-07-20-Redux/index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/posts/react/2020-07-20-Redux/tree.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/posts/react/2020-07-21-react-redux-keyword/index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/posts/react/2020-07-22-react-connect-hoc/index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/posts/react/2020-07-23-react-redux-middleware/index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/posts/react/2020-07-23-react-redux-middleware/next-vs-dispatch.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/posts/react/2020-07-23-react-redux-middleware/redux-middleware.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/posts/react/2020-07-25-react-component-styling/Untitled.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/posts/react/2020-07-25-react-component-styling/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/NavComp.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/blog-logo.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/blog-logo.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/videoplayback.mp4" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gatsby-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/post-list/PostListComp.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/post-list/PostListComp.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/post/PostComp.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/post/PostComp.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/tag/TagListComp.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/tag/TagListComp.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/posts/react/2020-06-24-React 기본개념/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/posts/react/2020-06-24-React 기본개념/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constants/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/types.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,29 +69,30 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/posts/react/2020-07-25-react-component-styling" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/posts/react/2020-07-25-react-component-styling" />
-      <recent name="$PROJECT_DIR$/src/posts/react/2020-07-23-react-redux-middleware" />
-      <recent name="$PROJECT_DIR$/src/posts/react/2020-07-22-react-connect-hoc" />
-      <recent name="$PROJECT_DIR$/src/posts/react/2020-07-21-react-redux-keyword" />
-      <recent name="$PROJECT_DIR$/src/posts/react/2020-07-20-Redux" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/resource/video" />
       <recent name="$PROJECT_DIR$/src/posts/react/2020-07-20-Redux" />
       <recent name="$PROJECT_DIR$/src/posts/react/2020-06-24-React 기본개념" />
       <recent name="$PROJECT_DIR$/src/posts/react/2020-06-27-react-jsx-basic" />
       <recent name="$PROJECT_DIR$/src/posts/javascript/20-06-25-javascript-promise" />
-      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static" />
+      <recent name="$PROJECT_DIR$/src/images" />
+      <recent name="$PROJECT_DIR$/public/static" />
+      <recent name="$PROJECT_DIR$/src/resource" />
+      <recent name="$PROJECT_DIR$/src/posts/react/2020-07-25-react-component-styling" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -121,7 +108,10 @@
       <workItem from="1597803989098" duration="80757000" />
       <workItem from="1598498813547" duration="11430000" />
       <workItem from="1598524117021" duration="116000" />
-      <workItem from="1598524302298" duration="23094000" />
+      <workItem from="1598524302298" duration="23225000" />
+      <workItem from="1598843171733" duration="4000" />
+      <workItem from="1598843214912" duration="6000" />
+      <workItem from="1598844954051" duration="13864000" />
     </task>
     <servers />
   </component>
@@ -160,10 +150,11 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog/-907.-1440.3440.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1597830466585" />
-    <state x="563" y="334" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597886033251">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state x="520" y="-736" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598978550884">
+      <screen x="-123" y="-1080" width="1920" height="1080" />
     </state>
     <state x="563" y="334" key="#com.intellij.fileTypes.FileTypeChooser/-907.-1440.3440.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1597886033251" />
+    <state x="520" y="-736" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1680.1050/-123.-1080.1920.1080@-123.-1080.1920.1080" timestamp="1598978550884" />
     <state x="563" y="334" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1597803108647" />
     <state x="578" y="259" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1598412078817">
       <screen x="0" y="0" width="1680" height="1050" />
@@ -194,6 +185,10 @@
     </state>
     <state width="1659" height="295" key="GridCell.Tab.0.right/-907.-1440.3440.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1598411361593" />
     <state width="1659" height="295" key="GridCell.Tab.0.right/0.0.1680.1050/1680.-719.1080.1920@0.0.1680.1050" timestamp="1598524079322" />
+    <state x="346" y="-901" key="SettingsEditor" timestamp="1598985526228">
+      <screen x="-123" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="346" y="-901" key="SettingsEditor/0.0.1680.1050/-123.-1080.1920.1080@-123.-1080.1920.1080" timestamp="1598985526228" />
     <state x="100" y="100" width="1480" height="850" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1597853110590">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -210,18 +205,19 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="638" y="446" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-907.-1440.3440.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1598431780608" />
-    <state x="360" y="114" width="1320" height="822" key="find.popup" timestamp="1598513115811">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state x="288" y="-963" width="1509" height="846" key="find.popup" timestamp="1598972298924">
+      <screen x="-123" y="-1080" width="1920" height="1080" />
     </state>
     <state x="360" y="114" width="1320" height="822" key="find.popup/-907.-1440.3440.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1598513115811" />
+    <state x="288" y="-963" width="1509" height="846" key="find.popup/0.0.1680.1050/-123.-1080.1920.1080@-123.-1080.1920.1080" timestamp="1598972298924" />
     <state x="213" y="116" width="1320" height="822" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1598376418196" />
-    <state x="454" y="-840" width="766" height="696" key="search.everywhere.popup" timestamp="1598722651307">
-      <screen x="-123" y="-1080" width="1920" height="1080" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1599005216797">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/-907.-1417.3440.1417/0.0.1680.1050@0.0.1680.1050" timestamp="1597882515512" />
     <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/-907.-1440.3440.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1598499179272" />
-    <state x="454" y="-840" width="766" height="696" key="search.everywhere.popup/0.0.1680.1050/-123.-1080.1920.1080@-123.-1080.1920.1080" timestamp="1598722651307" />
-    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050/-123.-1080.1920.1080@0.0.1680.1050" timestamp="1598540784607" />
+    <state x="454" y="-840" width="766" height="696" key="search.everywhere.popup/0.0.1680.1050/-123.-1080.1920.1080@-123.-1080.1920.1080" timestamp="1598984957475" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050/-123.-1080.1920.1080@0.0.1680.1050" timestamp="1599005216797" />
     <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050/1680.-719.1080.1920@0.0.1680.1050" timestamp="1598534201433" />
     <state x="513" y="307" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1598462706065" />
     <state x="454" y="-840" width="766" height="696" key="search.everywhere.popup/0.23.1680.1027/-123.-1080.1920.1080@-123.-1080.1920.1080" timestamp="1598548086448" />

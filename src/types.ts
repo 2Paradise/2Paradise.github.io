@@ -54,3 +54,11 @@ export type Node = {
 };
 
 export type MarkdownRemark = Node;
+
+export type CommonColorType = {
+  green?: string
+  red?: string
+  white?: string
+  blue?: string
+  black?: string
+}

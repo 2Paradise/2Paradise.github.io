@@ -1,3 +1,5 @@
+import { CommonColorType } from "../types";
+
 export const CONTENT_PER_PAGE: number = 8;
 export const PAGE_PER_SCREEN: number = 4;
 
@@ -25,3 +27,13 @@ export const LINKEDIN_ID: string = '';
 
 // Disqus (Recommend you to use this)
 export const DISQUS_ID: string = '2Paradise';
+
+export const COMMON_COLORS: CommonColorType = {
+  green:  "#428E71"
+  , red: "#E5784F"
+  , white: "#F4DCD2"
+  , blue: "#4D56A5"
+  , black: "#271C31"
+};
+
+export const COMMON_COLOR: string | undefined = COMMON_COLORS.blue;
