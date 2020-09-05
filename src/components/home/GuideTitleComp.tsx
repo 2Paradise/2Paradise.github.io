@@ -50,4 +50,6 @@ const GuideTitleBox = styled.div`
     font-weight: bold;  
   }
   
+  
+  
 `;

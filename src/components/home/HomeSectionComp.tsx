@@ -33,8 +33,9 @@ export default HomeSectionComp;
 const BoxTitle = styled.p`
     font-size: 3rem;
     font-weight: bold;
-    text-align: center;
+    text-align: left;
     margin: 100px 60px 60px 0;
+    padding-left: 20px;
 `;
 
 const BoxWrap = styled.div`
@@ -51,6 +52,12 @@ const BoxWrap = styled.div`
   
   .___box + .___box {
       border-top: 1px solid #2d2d2d;
+  }
+
+  @media only screen and (max-width: 992px) {
+    .___box{
+        display: block;
+    }
   }
 
 `;

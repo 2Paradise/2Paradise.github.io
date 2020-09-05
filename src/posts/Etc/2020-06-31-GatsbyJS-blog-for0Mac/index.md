@@ -2,7 +2,7 @@
 hide: false
 type: "post"
 title: "GatsbyJS 블로그 만들기 for Mac"
-tag: ["Gatsby", "React", "GraphQl", "ETC", "Blog"]
+tag: ["Gatsby", "React", "GraphQL", "ETC", "Blog"]
 date: "2020-06-30"
 desc: "윈도우 환경에서만 개발을 해왔던 초보 mac 유저에게는 모든게 낯설고 힘들다. React를 접하며 공부 목적의 Github Blog를 개설하기 위해 겪은 시행착오를 기준으로 주의할 점과 함께 포스팅 하려 한다. 기본적으로 GatsbyJs 는 React 기반의 정적 페이지 생성 프레임 워크로, 가공할 정보를 GraphQL에서 가져와 Bulid 시점에 정적 페이지를 만들어 내는 방식이다."
 cate: "etc"

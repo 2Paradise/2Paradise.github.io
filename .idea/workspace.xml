@@ -20,16 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b678042-0e03-48bc-9f92-7ce05eae8f4c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/query/use-site-metadata.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatsby-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatsby-node.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-node.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/post/PostComp.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/post/PostComp.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constants/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/posts/typescript/2020-08-01-TypeScript-for-React-Project/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/posts/typescript/2020-08-01-TypeScript-for-React-Project/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home/GuideTitleComp.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/GuideTitleComp.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home/HomeMainComp.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/HomeMainComp.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/posts/Etc/2020-06-31-GatsbyJS-blog-for0Mac/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/posts/Etc/2020-06-31-GatsbyJS-blog-for0Mac/index.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +99,7 @@
       <workItem from="1598524302298" duration="23225000" />
       <workItem from="1598843171733" duration="4000" />
       <workItem from="1598843214912" duration="6000" />
-      <workItem from="1598844954051" duration="31636000" />
+      <workItem from="1598844954051" duration="33895000" />
     </task>
     <servers />
   </component>

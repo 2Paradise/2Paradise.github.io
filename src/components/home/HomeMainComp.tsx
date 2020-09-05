@@ -35,11 +35,13 @@ const ContentWrap = styled.div`
     font-size:5rem;
     line-height: 1.2em;
     padding:300px 0;
+    //text-shadow: -5px 0 #2d2d2d, 0 5px #2d2d2d, 5px 0 #2d2d2d, 0 -5px #2d2d2d;
+    //-moz-text-shadow: -5px 0 #2d2d2d, 0 5px #2d2d2d, 5px 0 #2d2d2d, 0 -5px #2d2d2d;
+    //-webkit-text-shadow: -5px 0 #2d2d2d, 0 5px #2d2d2d, 5px 0 #2d2d2d, 0 -5px #2d2d2d;
   }
 
   & .___videobox {
     position: absolute;
-    width: 60vw;
     right: 0;
     top: 50%;
     transform: translateY(-50%);
