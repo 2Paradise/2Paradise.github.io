@@ -1,13 +1,20 @@
 import { Link } from "gatsby"
-import React from "react"
+import React, { useState } from "react"
 import styled from 'styled-components';
 import NavComp from "./common/NavComp"
-import { COMMON_COLOR } from "../constants";
+import { COMMON_COLORS } from "../constants";
 
 const Header: React.FC = () => {
 
+  const [backProp, setBackProp] = useState("black");
+
+  window.onscroll = () => {
+    const flagTop = document.body.scrollTop > 50 || document.documentElement.scrollTop > 50;
+    setBackProp(flagTop ? `linear-gradient(to left, ${COMMON_COLORS.blue}, ${COMMON_COLORS.red})` : "black");
+  }
+
   return (
-      <HeaderWrap color={COMMON_COLOR}>
+      <HeaderWrap backProp={backProp}>
         <div className="inner-width">
           <div className="navbar-logo">
             <Link to="/" className="logo">
@@ -27,12 +34,12 @@ const HeaderWrap = styled.header`
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
   position: fixed;
-  background-color: ${(props) => props.color};
+  background: ${(props: any) => props.backProp};
   width: 100%;
   padding: 20px 0;
   z-index: 999;
   top:0;
-  transition: .3s linear;
+  transition: .5s linear;
 
   .inner-width{
     max-width: 1330px;

@@ -20,10 +20,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b678042-0e03-48bc-9f92-7ce05eae8f4c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/resume/ResumeComp.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/resume/ResumeProfileIcon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/templates/resume-template.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/icons/profile_blog.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/icons/profile_git.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/icons/profile_linkedin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/profile.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-lib/on-create-pages.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-lib/on-create-pages.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/NavComp.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/NavComp.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/home/GuideTitleComp.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/GuideTitleComp.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/home/HomeMainComp.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/HomeMainComp.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/posts/Etc/2020-06-31-GatsbyJS-blog-for0Mac/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/posts/Etc/2020-06-31-GatsbyJS-blog-for0Mac/index.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +66,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/posts/typescript/2020-08-17-TypeScript-Redux-Middleware" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/icons" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -76,11 +85,11 @@
       <recent name="$PROJECT_DIR$/src/posts/javascript/20-06-25-javascript-promise" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/icons" />
+      <recent name="$PROJECT_DIR$/static" />
+      <recent name="$PROJECT_DIR$/src/templates" />
       <recent name="$PROJECT_DIR$/src/posts/typescript/2020-08-17-TypeScript-Redux-Middleware" />
       <recent name="$PROJECT_DIR$/src/posts/typescript/2020-08-03-TypeScript-Redux" />
-      <recent name="$PROJECT_DIR$/src/posts/typescript/2020-08-01-TypeScript-for-React-Project" />
-      <recent name="$PROJECT_DIR$/static/icon" />
-      <recent name="$PROJECT_DIR$/static" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -100,6 +109,9 @@
       <workItem from="1598843171733" duration="4000" />
       <workItem from="1598843214912" duration="6000" />
       <workItem from="1598844954051" duration="33895000" />
+      <workItem from="1599445596290" duration="14000000" />
+      <workItem from="1599542976294" duration="256000" />
+      <workItem from="1599549224154" duration="5650000" />
     </task>
     <servers />
   </component>
@@ -204,9 +216,10 @@
     <state x="288" y="-963" width="1509" height="846" key="find.popup/0.0.1680.1050/-123.-1080.1920.1080@-123.-1080.1920.1080" timestamp="1598972298924" />
     <state x="359" y="114" width="1321" height="823" key="find.popup/0.0.1680.1050/-123.-1080.1920.1080@0.0.1680.1050" timestamp="1599038366241" />
     <state x="213" y="116" width="1320" height="822" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1598376418196" />
-    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1599040280904">
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1599463427559">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/-820.-1440.3440.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1599463427559" />
     <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/-907.-1417.3440.1417/0.0.1680.1050@0.0.1680.1050" timestamp="1597882515512" />
     <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/-907.-1440.3440.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1598499179272" />
     <state x="454" y="-840" width="766" height="696" key="search.everywhere.popup/0.0.1680.1050/-123.-1080.1920.1080@-123.-1080.1920.1080" timestamp="1598984957475" />

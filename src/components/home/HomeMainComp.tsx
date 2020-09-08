@@ -35,9 +35,6 @@ const ContentWrap = styled.div`
     font-size:5rem;
     line-height: 1.2em;
     padding:300px 0;
-    //text-shadow: -5px 0 #2d2d2d, 0 5px #2d2d2d, 5px 0 #2d2d2d, 0 -5px #2d2d2d;
-    //-moz-text-shadow: -5px 0 #2d2d2d, 0 5px #2d2d2d, 5px 0 #2d2d2d, 0 -5px #2d2d2d;
-    //-webkit-text-shadow: -5px 0 #2d2d2d, 0 5px #2d2d2d, 5px 0 #2d2d2d, 0 -5px #2d2d2d;
   }
 
   & .___videobox {
@@ -45,6 +42,7 @@ const ContentWrap = styled.div`
     right: 0;
     top: 50%;
     transform: translateY(-50%);
+    opacity: 0.7;
     z-index: -1;
 
     video {

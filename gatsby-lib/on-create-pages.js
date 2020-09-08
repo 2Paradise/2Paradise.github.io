@@ -34,6 +34,7 @@ const createPages = async ({ graphql, actions }) => {
   const notFoundTempComp = path.resolve(__dirname,"../src/templates/not-found-template.js");
   const postTempComp = path.resolve(__dirname, "../src/templates/post-template.tsx");
   const postListTempComp = path.resolve(__dirname, "../src/templates/post-list-template.tsx");
+  const resumeTempComp = path.resolve(__dirname, "../src/templates/resume-template.tsx");
 
   // 404
   createPage({
@@ -71,6 +72,12 @@ const createPages = async ({ graphql, actions }) => {
   createPage({
     path: "/post",
     component: postListTempComp,
+    context: {}
+  });
+
+  createPage({
+    path: "/resume",
+    component: resumeTempComp,
     context: {}
   });
 

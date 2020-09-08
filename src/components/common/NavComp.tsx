@@ -36,7 +36,7 @@ const NavComp: React.FC = () => {
               </ul>
             </div>
           </div>
-          <Link to="/">Resume</Link>
+          <Link to="/resume">Resume</Link>
           {/*<Link to="/">Toy Project</Link>*/}
         </NavWrap>
     );
