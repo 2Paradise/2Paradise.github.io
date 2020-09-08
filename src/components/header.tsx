@@ -1,5 +1,5 @@
 import { Link } from "gatsby"
-import React, { useState } from "react"
+import React, { useEffect, useState } from "react"
 import styled from 'styled-components';
 import NavComp from "./common/NavComp"
 import { COMMON_COLORS } from "../constants";
@@ -8,11 +8,13 @@ const Header: React.FC = () => {
 
   const [backProp, setBackProp] = useState("black");
 
-  window.onscroll = () => {
-    const flagTop = document.body.scrollTop > 50 || document.documentElement.scrollTop > 50;
-    setBackProp(flagTop ? `linear-gradient(to left, ${COMMON_COLORS.blue}, ${COMMON_COLORS.red})` : "black");
-  }
-
+  useEffect(() => {
+    window.onscroll = () => {
+      const flagTop = document.body.scrollTop > 50 || document.documentElement.scrollTop > 50;
+      setBackProp(flagTop ? `linear-gradient(to left, ${COMMON_COLORS.blue}, ${COMMON_COLORS.red})` : "black");
+    }
+  }, []);
+  
   return (
       <HeaderWrap backProp={backProp}>
         <div className="inner-width">
