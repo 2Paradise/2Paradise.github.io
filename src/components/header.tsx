@@ -14,7 +14,7 @@ const Header: React.FC = () => {
       setBackProp(flagTop ? `linear-gradient(to left, ${COMMON_COLORS.blue}, ${COMMON_COLORS.red})` : "black");
     }
   }, []);
-  
+
   return (
       <HeaderWrap backProp={backProp}>
         <div className="inner-width">

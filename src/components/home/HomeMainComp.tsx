@@ -49,4 +49,18 @@ const ContentWrap = styled.div`
       width: 100%;
     }
   }
+  
+  @media only screen and (max-width: 992px) {
+      & .___videobox {
+        width: 100%;
+        height: 100%;
+        video {
+          position: absolute;
+          top: 0;
+          left: 0;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+  }
 `;
