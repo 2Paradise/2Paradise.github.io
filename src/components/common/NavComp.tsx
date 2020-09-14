@@ -26,7 +26,7 @@ const NavComp: React.FC = () => {
 
     return (
         <NavWrap visible={visible} color={COMMON_COLOR}>
-          <div className={"___subMenu"} onMouseOver={handleOver} onMouseOut={handleOut}>Blog {visible ? "▲": "▼"}
+          <div className={"___subMenu"} onMouseOver={handleOver} onMouseOut={handleOut}>Blog&nbsp;&nbsp;{visible ? "▲": "▼"}
             <div className={"___subNavBox"} onMouseOver={handleOver} onMouseOut={handleOut}>
               <ul>
                 <li><Link to="/post?tag=React"><DiReact size="1rem"/> React</Link></li>
