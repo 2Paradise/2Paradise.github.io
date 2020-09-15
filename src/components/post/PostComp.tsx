@@ -42,7 +42,7 @@ const PostComp: React.FC<PostPropsType> = ({markdown}) => {
   )
 }
 
-export default PostComp;
+export default React.memo(PostComp);
 
 const ContentWrap = styled.div`
   display: flex;
@@ -51,7 +51,7 @@ const ContentWrap = styled.div`
 
 const PostWrap = styled.div`
   position:relative;
-  padding-top: 70px;
+  padding: 70px 20px 0px 20px;
   width: 840px;
 `;
 
@@ -80,13 +80,12 @@ const PostContent = styled.div`
   margin:50px 0 70px 0;
   line-height: 1.7em;
   
-  
-  & ul {
+  ul {
     padding-left: 40px;
     list-style: none;
   }
   
-  & ul li:before {
+  ul li:before {
     content: "•";
     color: #3399ff;
     font-weight:bold;
@@ -96,7 +95,7 @@ const PostContent = styled.div`
     margin-left: -1em;
   }
   
-  & img {
+  img {
     margin: 20px 0;
   }
 `;

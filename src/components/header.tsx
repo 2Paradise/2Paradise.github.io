@@ -32,7 +32,7 @@ const Header: React.FC = () => {
 
 export default Header
 
-const HeaderWrap = styled.header`
+const HeaderWrap: any = styled.header`
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
   position: fixed;

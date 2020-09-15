@@ -15,7 +15,7 @@ const GuideListComp: React.FC<GuideTitleCompType> = ({cate}) => {
       <GuideList>
         <StaticQuery query={graphql`
           query GuideListQuery {
-            allMarkdownRemark(sort: {fields: frontmatter___date, order: ASC}) {
+            allMarkdownRemark(sort: {fields: frontmatter___date, order: DESC}) {
               edges {
                 node {
                   frontmatter {
