@@ -401,7 +401,6 @@ p {
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 1.45rem;
-  font-size:0.9rem;
 }
 figure {
   margin-left: 0;
@@ -694,8 +693,8 @@ pre[class*="language-"] {
   font-size:0.9rem;
   font-family: Consolas, "Roboto Mono", "Droid Sans Mono",
   "Liberation Mono", Menlo, Courier, monospace;
-  padding: 0.2em 0.1em 0.2em 0.4em;
-  margin-right: 0.2em;
+  padding: .2em .2em .2em .2em;
+  margin-right: .2em;
 }
 
 .token.comment,

@@ -79,17 +79,20 @@ const PostDate = styled.div`
 const PostContent = styled.div`
   margin:50px 0 70px 0;
   line-height: 1.7em;
-  
+
   ul {
     padding-left: 40px;
     list-style: none;
+    li {
+      font-size: 0.9rem;
+    }
   }
   
   ul li:before {
     content: "•";
     color: #3399ff;
     font-weight:bold;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     display: inline-block;
     width:1em;
     margin-left: -1em;

@@ -20,8 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b678042-0e03-48bc-9f92-7ce05eae8f4c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/posts/javascript/2020-09-22-javascript-truthy-falsy/index.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/post/PostComp.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/post/PostComp.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +102,7 @@
       <workItem from="1599445596290" duration="14000000" />
       <workItem from="1599542976294" duration="256000" />
       <workItem from="1599549224154" duration="9220000" />
-      <workItem from="1600767498889" duration="692000" />
+      <workItem from="1600767498889" duration="1347000" />
     </task>
     <servers />
   </component>
