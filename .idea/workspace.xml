@@ -20,13 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b678042-0e03-48bc-9f92-7ce05eae8f4c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/posts/react/2020-09-15-how-to-useCallback-useMemo/index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/posts/react/2020-09-15-how-to-useCallback-useMemo/useMemoUseCallback.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/posts/javascript/2020-09-22-javascript-truthy-falsy/index.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/GuideListComp.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/GuideListComp.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/post/PostComp.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/post/PostComp.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/posts/javascript/2020-09-14-What -is-JavaScript/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/posts/javascript/2020-09-14-What -is-JavaScript/index.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +55,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/posts/react/2020-09-15-how-to-useCallback-useMemo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/posts/javascript/2020-09-22-javascript-truthy-falsy" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -71,19 +66,19 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/posts/javascript/2020-09-22-javascript-truthy-falsy" />
+      <recent name="$PROJECT_DIR$/src/posts/react/2020-09-15-how-to-useCallback-useMemo" />
+      <recent name="$PROJECT_DIR$/src/posts/javascript/2020-09-14-What -is-JavaScript" />
+      <recent name="$PROJECT_DIR$/static/icons" />
+      <recent name="$PROJECT_DIR$/static" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/resource/video" />
       <recent name="$PROJECT_DIR$/src/posts/react/2020-07-20-Redux" />
       <recent name="$PROJECT_DIR$/src/posts/react/2020-06-24-React 기본개념" />
       <recent name="$PROJECT_DIR$/src/posts/react/2020-06-27-react-jsx-basic" />
       <recent name="$PROJECT_DIR$/src/posts/javascript/20-06-25-javascript-promise" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/posts/react/2020-09-15-how-to-useCallback-useMemo" />
-      <recent name="$PROJECT_DIR$/src/posts/javascript/2020-09-14-What -is-JavaScript" />
-      <recent name="$PROJECT_DIR$/static/icons" />
-      <recent name="$PROJECT_DIR$/static" />
-      <recent name="$PROJECT_DIR$/src/templates" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -105,7 +100,8 @@
       <workItem from="1598844954051" duration="33895000" />
       <workItem from="1599445596290" duration="14000000" />
       <workItem from="1599542976294" duration="256000" />
-      <workItem from="1599549224154" duration="8782000" />
+      <workItem from="1599549224154" duration="9220000" />
+      <workItem from="1600767498889" duration="692000" />
     </task>
     <servers />
   </component>
