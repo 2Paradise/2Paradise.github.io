@@ -5,7 +5,7 @@ import { Node } from "../../types";
 import PostTagListComp from "../post-list/PostTagListComp";
 import TagListComp from "../tag/TagListComp";
 import { DiscussionEmbed } from "disqus-react";
-import { DISQUS_ID, SITE_URL } from "../../constants"
+import { DISQUS_ID } from "../../constants"
 
 type PostPropsType = {
   markdown : Node
