@@ -19,9 +19,8 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b678042-0e03-48bc-9f92-7ce05eae8f4c" name="Default Changelist" comment="">
+    <list default="true" id="6b678042-0e03-48bc-9f92-7ce05eae8f4c" name="Default Changelist" comment="update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/post/PostComp.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/post/PostComp.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,8 +100,16 @@
       <workItem from="1599445596290" duration="14000000" />
       <workItem from="1599542976294" duration="256000" />
       <workItem from="1599549224154" duration="9220000" />
-      <workItem from="1600767498889" duration="2562000" />
+      <workItem from="1600767498889" duration="3429000" />
     </task>
+    <task id="LOCAL-00001" summary="update">
+      <created>1602129303414</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1602129303414</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,6 +141,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="190" key="#Intentions" timestamp="1599015870702">
@@ -183,6 +192,10 @@
       <screen x="-123" y="-1080" width="1920" height="1080" />
     </state>
     <state x="346" y="-901" key="SettingsEditor/0.0.1680.1050/-123.-1080.1920.1080@-123.-1080.1920.1080" timestamp="1598985526228" />
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1602129306213">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1602129306213" />
     <state x="100" y="100" width="1480" height="850" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1597853110590">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
