@@ -30,7 +30,7 @@ const ContentWrap = styled.div`
 
   & .___title{
     text-align: left;
-    font-width: bold;
+    font-weight: bold;
     color:#ffffff;
     font-size:5rem;
     line-height: 1.2em;
