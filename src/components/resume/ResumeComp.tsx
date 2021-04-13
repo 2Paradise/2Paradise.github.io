@@ -80,6 +80,44 @@ const ResumeComp: React.FC = () => {
             <ResumeDivider/>
 
             <ResumeExper>
+
+            <div className={"___box"}>
+                <div className={"___lbox"}>
+                  <h2>그린랩스</h2>
+                  <h5>Full Stack Developer<br/>2020. 10 – 2021. 01</h5>
+                </div>
+                <div>
+                  <h2>FarmMornning 기능개선 및 유지보수</h2>
+                  <h5>2020. 10 – 2021. 01</h5>
+                  <h3><span className={"--pointColor"}>#</span> Description</h3>
+                  <p>그린랩스 IoT 팀 소프트웨어 파트소속으로 3개월간 스마트팜 각 농가에 배포되는 소프트웨어에 대한 기능 개선 및 유지보수 업무를 진행하였습니다.
+                    FarmMornning 서비스는 스마트팜에 설치된 IoT 센서를 통해 농가에서 측정가능한 정보수집하고 원격으로 농장 모니터링 및 제어 할 수 있는 기능을 제공하는 서비스 입니다. </p>
+                  <h3><span className={"--pointColor"}>#</span> What did i do</h3>
+                  <ResumePointList tab>
+                    <li>기존 서비스 코드의 불필요코드 제거 및 모듈화, webpack 번들링 개선 등 프로젝트 최적화 작업</li>
+                    <li>프로젝트의 효율적인 데이터 제공을 위한 DB 구조 및 테이블 재설계</li>
+                    <li>스마트팜 내 CCTV 리소스 감소를 위한 최적화 작업</li>
+                    <li>농가 환경 및 제어정보 빅데이트 수집을 위한 API 설계 및 개발</li>
+                  </ResumePointList>
+                  <h3><span className={"--pointColor"}>#</span> Tech Stack</h3>
+                  <ResumeExperList>
+                    <div className={"___row"}>
+                      <div className={"___rowTitle"}>Front</div>
+                      <div>React</div>
+                    </div>
+                    <div className={"___row"}>
+                      <div className={"___rowTitle"}>Back</div>
+                      <div>Node(Koa)</div>
+                    </div>
+                    <div className={"___row"}>
+                      <div className={"___rowTitle"}>DB</div>
+                      <div>MySql</div>
+                    </div>
+                  </ResumeExperList>
+                </div>
+              </div>
+              <ResumeDivider/>
+
               <div className={"___box"}>
                 <div className={"___lbox"}>
                   <h2>아이시프트</h2>
