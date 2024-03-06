@@ -34,9 +34,11 @@ const ResumeComp: React.FC = () => {
                 <ResumeProfileIcon/>
               </div>
               <ResumeTextDefault>
-                개발자라는 직업에 무한한 매력을 느끼며 좋아하는 일을 한다는 것에 감사하는 개발자 이낙원 입니다. 이 전 직장에서는 많은 업무량과 잦은 야근에도 즐겁게 시간이 가는 줄 모른 체 일해오며, SI 업체 특성상 Backend, Frontend 전반에 걸쳐 다양한 경험을 쌓을 수 있었습니다.
-                <br/><br/>이제는 Frontend 전문 개발자로서, 새로운 도전을 하기로 결심하여 Front-End 관련 기초 지식 및 React 관련 기술 스택들을 집중적으로 연구하고 좋은 코드를 작성하는 것에 대해 깊이 있는 고민을 하며 즐거운 시간을 보내고 있습니다.
-                <br/><br/>새로운 것을 배우는데 있어, 두려움이 없고 빠른 학습능력을 가지고 있다고 자신 하고 있습니다.
+              안녕하세요, 저는 개발에 대한 무한한 매력에 빠져 사는 개발자 이낙원입니다. 저에게 개발이란 단순히 직업을 넘어서, 새로운 것을 만들어내는 창조적인 과정이며, 그 과정 속에서 발견하는 끊임없는 학습과 성장의 기회입니다.
+              <br/><br/>SI 업계에서의 근무 경험은 저에게 Backend와 Frontend를 아우르는 다양한 기술 스택과 프로젝트 관리 능력을 갖추게 해주었습니다. 잦은 야근과 업무량 속에서도, 저는 제가 하는 일에서 즐거움을 찾았고, 이는 저를 더욱 강한 개발자로 만들어주었습니다.
+              <br/><br/>그 후, 저는 제 열정을 Frontend 개발에 집중하기로 결심했습니다. 그린랩스에서의 경험은 저에게 함수형 언어인 Rescript와 GraphQL을 사용한 프로젝트에 참여할 기회를 주었고, 이는 저의 기술 스택을 풍부하게 해주었습니다. Rescript를 통해 저는 강력한 타입 추론과 명확한 코드 작성의 중요성을 배웠고, GraphQL을 통해서는 데이터를 효율적으로 쿼리하고 관리하는 현대적인 방법에 대해 귀중한 경험을 얻었습니다.
+              <br/><br/>새로운 기술을 배우는 것에 대한 두려움이 없는 저는, 항상 최신 트렌드를 따라가며, 좋은 코드를 작성하기 위해 깊은 고민과 연구를 즐깁니다. 사용자 경험을 최우선으로 생각하며, 제가 하는 모든 개발 작업에 헌신합니다.
+              <br/><br/>저는 계속해서 새로운 도전을 통해 성장하고자 합니다. 기술적 한계를 넘어서는 것을 목표로 하며, 저의 지식과 열정이 팀과 프로젝트에 긍정적인 영향을 미칠 수 있기를 바랍니다. 개발자로서의 여정은 결코 쉽지 않지만, 그 여정 속에서 저는 제 자신을 발견하고, 끊임없이 발전해 나가고 있습니다.
               </ResumeTextDefault>
             </ResumeIntroWrap>
             <ResumeSubTitleBox main><span className={"--pointColor"}>S</span>kills</ResumeSubTitleBox>
@@ -47,7 +49,7 @@ const ResumeComp: React.FC = () => {
               <li>적절한 HTML 요소를 사용하는 시맨틱 마크업을 준수합니다.</li>
               <li>다양한 플랫폼 및 브라우저를 고려한 CSS 사용이 가능합니다.</li>
               <li>BEM CSS 방법론을 적용하여 CSS 코드 작성을 지향합니다.</li>
-              <li>Sass, Style-components 등 CSS Preprocessor를 학습하였습니다.</li>
+              <li>Tailwind-Css, Sass, Style-components 등 CSS Preprocessor를 학습하였습니다.</li>
             </ResumePointList>
             <ResumeSubTitleBox small>JavaScript</ResumeSubTitleBox>
             <ResumePointList tab>
@@ -62,6 +64,13 @@ const ResumeComp: React.FC = () => {
               <li>redux-thunk, redux-saga를 사용한 비동기 처리 코드 작성 방식을 학습하였습니다.</li>
               <li>TypeScript를 적용한 React 코드를 작성하며 React를 학습하였습니다.</li>
             </ResumePointList>
+            <ResumeSubTitleBox small>Rescript</ResumeSubTitleBox>
+            <ResumePointList tab>
+              <li>ReScript의 강력한 타입 시스템을 통해, 코드 안정성을 높이며 복잡한 데이터 구조를 모델링하는 방법을 배웠습니다.</li>
+              <li>패턴 매칭, 순수 함수 등의 핵심 개념을 통해 함수형 프로그래밍의 깊이 있는 접근법을 익혔습니다.</li>
+              <li>JavaScript 라이브러리와의 상호 작용을 위한 바인딩 기술을 활용, 효율적으로 외부 생태계와 통합하는 능력을 배웠습니다.</li>
+              <li>효율적인 JavaScript 코드 작성 방법과 성능 최적화 전략에 대한 인식과 기술을 배웠습니다.</li>
+            </ResumePointList>
             <ResumeSubTitleBox>Back-End<span className={"--pointColor"}>.</span></ResumeSubTitleBox>
             <ResumeSubTitleBox small>Java</ResumeSubTitleBox>
             <ResumePointList tab>
@@ -69,11 +78,18 @@ const ResumeComp: React.FC = () => {
               <li>RestAPI 설계 및 코드작성 경험이 있습니다.</li>
               <li>Spring Boot를 활용한 마이크로서비스 구조의 프로젝트 경험이 있습니다.</li>
             </ResumePointList>
-            <ResumeSubTitleBox small>DataBase</ResumeSubTitleBox>
+            <ResumeSubTitleBox small>RDB</ResumeSubTitleBox>
             <ResumePointList tab>
               <li>원하는데이터요건에맞는SQL작성에익숙합니다.</li>
               <li>효율적인 관계형데이터베이스 테이블 설계가 가능합니다.</li>
               <li>SQL 최적화에 대한 이해와 작성이 가능합니다.</li>
+            </ResumePointList>
+            <ResumeSubTitleBox small>GraphQL</ResumeSubTitleBox>
+            <ResumePointList tab>
+              <li>필수 데이터만을 요청하여 네트워크 사용의 최적화 방법을 학습하셨습니다.</li>
+              <li> 단일 엔드포인트를 활용한 복잡한 API 관리 기법을 학습하셨습니다.</li>
+              <li> 타입 시스템을 이용한 API 스키마 정의 및 자동 문서화 기능에 대해 학습하셨습니다.</li>
+              <li> 다양한 에러 상황에 대응하는 유연한 처리 방안을 학습하셨습니다.</li>
             </ResumePointList>
 
             <ResumeSubTitleBox main><span className={"--pointColor"}>W</span>ork Experience</ResumeSubTitleBox>
@@ -81,13 +97,42 @@ const ResumeComp: React.FC = () => {
 
             <ResumeExper>
 
-            <div className={"___box"}>
+              <div className={"___box"}>
+                <div className={"___lbox"}>
+                  <h2>그린랩스</h2>
+                  <h5>Front-End Developer<br/>2021. 06 – 2023. 02</h5>
+                </div>
+                <div>
+                  <h2>FarmMornning 하이브리드 앱 기능개선 및 유지보수</h2>
+                  <h3><span className={"--pointColor"}>#</span> Description</h3>
+                  <p>농민을 위한 대량판매, 직거래, 커뮤니티, 채팅, 보조금, 병해충 등의 기능 서비스를 제공하는 플랫폼 팜모닝의 기능 개선 및 유지보수 업무를 진행하였습니다. </p>
+                  <h3><span className={"--pointColor"}>#</span> What did i do</h3>
+                  <ResumePointList tab>
+                    <li>대량판매 기능 개발</li>
+                    <li>커뮤니티 내 채팅 기능 개발</li>
+                    <li>커뮤니티 기능 개선</li>
+                    <li>보조금 기능 개선</li>
+                    <li>팜모닝 일본 버전 팜나비 앱 개발</li>
+                    <li>팜모닝 글로벌 버전 파미 앱 개발</li>
+                  </ResumePointList>
+                  <h3><span className={"--pointColor"}>#</span> Tech Stack</h3>
+                  <ResumeExperList>
+                    <div className={"___row"}>
+                      <div className={"___rowTitle"}>Front</div>
+                      <div>React, Rescript, GraphQL</div>
+                    </div>
+                  </ResumeExperList>
+                </div>
+              </div>
+              <ResumeDivider/>
+
+              <div className={"___box"}>
                 <div className={"___lbox"}>
                   <h2>그린랩스</h2>
                   <h5>Full Stack Developer<br/>2020. 10 – 2021. 01</h5>
                 </div>
                 <div>
-                  <h2>FarmMornning 기능개선 및 유지보수</h2>
+                  <h2>스마트팜 FarmMornning 기능개선 및 유지보수</h2>
                   <h5>2020. 10 – 2021. 01</h5>
                   <h3><span className={"--pointColor"}>#</span> Description</h3>
                   <p>그린랩스 IoT 팀 소프트웨어 파트소속으로 3개월간 스마트팜 각 농가에 배포되는 소프트웨어에 대한 기능 개선 및 유지보수 업무를 진행하였습니다.
