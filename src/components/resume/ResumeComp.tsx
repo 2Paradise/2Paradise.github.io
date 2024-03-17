@@ -6,6 +6,14 @@ import ResumeProfileIcon from "./ResumeProfileIcon"
 
 const pointColor: string = "#93CF51";
 
+interface ResumeSubTitleBoxProps {
+  small?: boolean;
+  main?: boolean;
+}
+interface ResumePointListProps {
+  tab?: boolean;
+}
+
 const ResumeComp: React.FC = () => {
     return (
         <ResumeWrap>
@@ -414,10 +422,10 @@ const ResumeExper = styled.div`
   
 `;
 
-const ResumeSubTitleBox = styled.div`
+const ResumeSubTitleBox = styled.div<ResumeSubTitleBoxProps>`
   margin: 35px 0;
-  margin-top : ${(props:any) => props.main ? "70px":"0"};
-  font-size: ${(props:any) => props.small ? "1.5rem" : "2rem"};
+  margin-top : ${(props) => props.main ? "70px":"0"};
+  font-size: ${(props) => props.small ? "1.5rem" : "2rem"};
 `;
 
 const ResumeIntroWrap = styled.div`
@@ -474,10 +482,10 @@ const ResumeTextDefault = styled.p`
   margin: 35px 0;
 `;
 
-const ResumePointList = styled.ul`
+const ResumePointList = styled.ul<ResumePointListProps>`
   position: relative;
-  margin:20px 0 40px ${(props:any) => props.tab ? "40px": "20px"};
-  font-size: ${(props:any) => props.tab ? "1rem": "1.2rem"};;
+  margin:20px 0 40px ${(props) => props.tab ? "40px": "20px"};
+  font-size: ${(props) => props.tab ? "1rem": "1.2rem"};;
   
   & li::before {
     content:"•";
