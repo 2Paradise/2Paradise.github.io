@@ -6,7 +6,7 @@ import styled, {css} from 'styled-components';
 import useSiteMetadata from "../query/use-site-metadata"
 
 type layoutProps = {
-  isWide: boolean
+  isWide?: boolean
 };
 
 const Layout: React.FC<layoutProps> = ({ children, isWide = false }) => {

@@ -94,10 +94,10 @@ const ResumeComp: React.FC = () => {
             </ResumePointList>
             <ResumeSubTitleBox small>GraphQL</ResumeSubTitleBox>
             <ResumePointList tab>
-              <li>필수 데이터만을 요청하여 네트워크 사용의 최적화 방법을 학습하셨습니다.</li>
-              <li> 단일 엔드포인트를 활용한 복잡한 API 관리 기법을 학습하셨습니다.</li>
-              <li> 타입 시스템을 이용한 API 스키마 정의 및 자동 문서화 기능에 대해 학습하셨습니다.</li>
-              <li> 다양한 에러 상황에 대응하는 유연한 처리 방안을 학습하셨습니다.</li>
+              <li>필수 데이터만을 요청하여 네트워크 사용의 최적화 방법을 학습하였습니다.</li>
+              <li> 단일 엔드포인트를 활용한 복잡한 API 관리 기법을 학습하였습니다.</li>
+              <li> 타입 시스템을 이용한 API 스키마 정의 및 자동 문서화 기능에 대해 학습하였습니다.</li>
+              <li> 다양한 에러 상황에 대응하는 유연한 처리 방안을 학습하였습니다.</li>
             </ResumePointList>
 
             <ResumeSubTitleBox main><span className={"--pointColor"}>W</span>ork Experience</ResumeSubTitleBox>
